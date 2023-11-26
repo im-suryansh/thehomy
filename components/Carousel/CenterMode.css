@@ -8,3 +8,13 @@ max-width: 1280px;
   text-align: center;
 
 }
+.cards h1{
+  text-align: left;
+  margin: 50px;
+  color: #646464;
+}
+.cards h2{
+  /* text-align: left; */
+  margin-bottom: 50px;
+  /* color: #646464; */
+}

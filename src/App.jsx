@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 import './App.css'
 import CenterMode from '../components/Carousel/CenterMode'
 import Banner from '../components/Banner/Banner'
+import FeatureBanner from '../components/FeatureBanner'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Banner />
       <CenterMode/>
+      <FeatureBanner/>
     </div>
   )
 }

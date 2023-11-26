@@ -19,6 +19,7 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
+    
       className={className}
       style={{ ...style, display: "block", background: "black" }}
       onClick={onClick}
@@ -55,7 +56,8 @@ export default class CenterMode extends Component {
     return (
       
       <div className="cards">
-        
+        <h1>Our Services</h1>
+        <h2>“Single price Triple Service”</h2>
         <Slider {...settings}>
           <div>
             <img src="../public/Dustguard.png" alt="" />
