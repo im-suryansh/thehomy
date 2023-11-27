@@ -13,43 +13,29 @@ import {
 import './Footer.css';
 export default function App() {
   return (
+    <>
+   
     <MDBFooter className='text-center' color='white' bgColor='black'>
+    <div className="footer-logo">
+      <img src=".././public/white-logo.png" alt="" srcset="" />
+      <div className="download">
+        <img src=".././public/ps.png" alt="" srcSet='' />
+        <img src=".././public/as.png" alt="" />
+      </div>
+
+    </div>
       <MDBContainer className='p-4'>
-        <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='facebook-f' />
-          </MDBBtn>
+        
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='github' />
-          </MDBBtn>
-        </section>
-
-        <section className='mb-4'>
+        {/* <section className='mb-4'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
             voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
             sequi voluptate quas.
           </p>
-        </section>
+        </section> */}
 
-        <section className=''>
+        <section className='footer-links'>
           <MDBRow>
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>Company</h5>
@@ -145,11 +131,37 @@ export default function App() {
             </MDBCol>
           </MDBRow>
         </section>
+        <section className='mb-4'>
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='facebook-f' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='twitter' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='google' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='instagram' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='linkedin-in' />
+          </MDBBtn>
+
+          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+            <MDBIcon fab icon='github' />
+          </MDBBtn>
+        </section>
       </MDBContainer>
 
       <a className='text-center  text-white' href='https://thehomy.co/' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         ©2023 TheHomy
       </a>
     </MDBFooter>
+    </>
   );
 }

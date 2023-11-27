@@ -4,11 +4,38 @@
 }   
 
 .list-unstyled {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     text-align: left;
     
     
 }
 .list-unstyled a{
     text-decoration: none;
+}
+.footer-logo img{
+    height: 100px;
+    width: auto;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+h5{
+    text-align: left;
+}
+
+.footer-logo{
+    margin: 20px 50px 20px 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.download img{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+
 }
