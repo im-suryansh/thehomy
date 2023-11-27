@@ -230,7 +230,9 @@
 
         }
 
-      
+        .caption-para{
+            display: none;
+        }
         
     }
 

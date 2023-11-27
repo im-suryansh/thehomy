@@ -18,3 +18,30 @@ max-width: 1280px;
   margin-bottom: 50px;
   /* color: #646464; */
 }
+@media (max-width: 1024px) {
+  .cards img{
+    height: 150px;
+    /* width: 400px; */
+    
+  } 
+}
+  
+
+@media (max-width: 600px) {
+  .cards img{
+    height: 150px;
+    /* width: 400px; */
+    
+  } 
+}
+  
+
+
+@media (max-width: 480px) {
+  .cards img{
+    height: 100px;
+    /* width: 400px; */
+    
+  } 
+}
+  

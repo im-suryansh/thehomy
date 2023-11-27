@@ -4,6 +4,7 @@ import './App.css'
 import CenterMode from '../components/Carousel/CenterMode'
 import Banner from '../components/Banner/Banner'
 import FeatureBanner from '../components/FeatureBanner'
+import Footer from '../components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <CenterMode/>
       <FeatureBanner/>
+      <Footer/>
     </div>
   )
 }

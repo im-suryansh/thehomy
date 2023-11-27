@@ -1,0 +1,14 @@
+.text-center{
+    text-decoration: none;
+    padding: 10px;
+}   
+
+.list-unstyled {
+    margin-left: 100px;
+    text-align: left;
+    
+    
+}
+.list-unstyled a{
+    text-decoration: none;
+}

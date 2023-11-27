@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { LuLocateFixed } from "react-icons/lu";
-
+import { RxHamburgerMenu } from "react-icons/rx";
 const Navbar = () => {
 	return (
 		<div className="Navbar">
@@ -22,6 +22,7 @@ const Navbar = () => {
                 </div>
 			</div>
             <div className="loginbtn">Login</div>
+			<div className="ham"><RxHamburgerMenu /></div>
 		</div>
 	);
 };

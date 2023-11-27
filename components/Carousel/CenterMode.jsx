@@ -49,10 +49,38 @@ export default class CenterMode extends Component {
       slidesToShow: 4,
       speed: 1000,
       autoplay: true,
-      autoplaySpeed: 2000      ,
+      autoplaySpeed: 2000,
+       responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            // dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            initialSlide: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    
       // nextArrow: <SampleNextArrow />,
       // prevArrow: <SamplePrevArrow />
     };
+
     return (
       
       <div className="cards">
