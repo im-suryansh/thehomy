@@ -4,12 +4,13 @@
 }   
 
 .list-unstyled {
-    /* margin-left: 100px; */
-    text-align: left;
+    width: 200px;    text-align: left;
     
     
 }
+
 .list-unstyled a{
+ 
     text-decoration: none;
 }
 .footer-logo img{
@@ -17,10 +18,16 @@
     width: auto;
 }
 
-.footer-links{
+.footer-links {
+    /* line-height: 50px; */
+    width: 1200px;
+    letter-spacing: 1px;
+    /* word-spacing: 3px; */
     display: flex;
     justify-content: space-between;
 }
+
+
 
 h5{
     text-align: left;
@@ -38,4 +45,26 @@ h5{
     flex-direction: column;
     height: 50px;
 
+}
+ 
+.social{
+    
+    align-items: center;
+    margin: 20px;
+}
+.fb, .li, .ig, .x{
+    cursor: pointer;
+    margin: 15px;
+}
+.ig:hover{
+color:#cd201f;
+}
+.fb:hover{
+color:#0866ff;
+}
+.li:hover{
+color:#0072b1;
+}
+.x:hover{
+color:#00acee;
 }
