@@ -7,6 +7,7 @@ import FeatureBanner from "../components/FeatureBanner";
 import Footer from "../components/Footer/Footer";
 import Contact from "../components/Contact";
 import Why from "../components/why";
+import FB from "../components/FB";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 								{<Why />}
 								{<CenterMode />}
 								{<FeatureBanner />}
+								<FB/>
 								{<Footer />}
 							</>
 						}
