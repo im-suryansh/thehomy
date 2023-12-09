@@ -22,17 +22,30 @@ const Navbar = () => {
 			</form>
 			<div className="header-text">
 				<div className="header-text2">
-					<Link to="/"  style={{textDecorationLine:'none'}}>
+					<Link to="/" style={{ textDecorationLine: "none" }}>
 						<div className="home">Home</div>
 					</Link>
-					<span>About Us</span>
+					<Link
+						to="/AboutUs"
+						style={{ color: "black", textDecorationLine: "none" }}
+					>
+						<span>About Us</span>
+					</Link>
+
 					<span>Services</span>
-					<Link to="/contact" style={{ color: 'black' , textDecorationLine:'none'}}>
+
+					<Link
+						to="/contact"
+						style={{ color: "black", textDecorationLine: "none" }}
+					>
 						<span>Contact Us</span>
 					</Link>
 				</div>
 			</div>
-			<div className="loginbtn">Login</div>
+			<Link to="/login" style={{ textDecorationLine: "none" }}>
+				<div className="loginbtn">Login</div>
+			</Link>
+
 			<div className="ham">
 				<RxHamburgerMenu />
 			</div>

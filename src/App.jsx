@@ -7,15 +7,19 @@ import FeatureBanner from "../components/FeatureBanner";
 import Footer from "../components/Footer/Footer";
 import Contact from "../components/Contact";
 import Why from "../components/why";
+import Login from "../components/Login";
 import FB from "../components/FB";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AboutUs from "../components/AboutUs";
+import {BrowserRouter as Router, Routes,Route} from "react-router-dom"
+
+import SignUp from "../components/SignUp";
 
 function App() {
 	const [count, setCount] = useState(0);
 
 	return (
 		<div className="App">
-			<BrowserRouter>
+			<Router>
 				<Routes>
 					<Route
 						path="/"
@@ -42,35 +46,37 @@ function App() {
 						}
 					/>
 					<Route
-						path="/signup"
+						path="/Login"
 						element={
 							<>
 								{<Navbar />}
-								<Contact />
+								<Login />
+								<Footer />
+							</>
+						}
+					/>			<Route
+					path="/AboutUs"
+					element={
+						<>
+							{<Navbar />}
+							<AboutUs />
+							<Footer />
+						</>
+					}
+				/>
+				<Route
+						path="/SignUp"
+						element={
+							<>
+								{<Navbar />}
+								
+								<SignUp />
 								<Footer />
 							</>
 						}
 					/>
-					{/* <Route
-					path="/signup"
-					element={<>
-						{<Navbar />}
-					
-						<Footer />
-						</>
-					}
-					/>
-					<Route
-					path="/signup"
-					element={<>
-						{<Navbar />}
-						<Contact />
-						<Footer />
-						</>
-					}
-					/> */}
 				</Routes>
-			</BrowserRouter>
+			</Router>
 		</div>
 	);
 }
