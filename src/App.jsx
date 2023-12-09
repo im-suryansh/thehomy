@@ -10,9 +10,12 @@ import Why from "../components/why";
 import Login from "../components/Login";
 import FB from "../components/FB";
 import AboutUs from "../components/AboutUs";
-import {BrowserRouter as Router, Routes,Route} from "react-router-dom"
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignUp from "../components/SignUp";
+import Support from "../components/Support";
+import FoodForm from "../components/foodform";
+import Pricing from "../components/Pricing";
+import Services from "../components/Services";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -30,7 +33,8 @@ function App() {
 								{<Why />}
 								{<CenterMode />}
 								{<FeatureBanner />}
-								<FB/>
+								{<FB />}
+								{<Support />}
 								{<Footer />}
 							</>
 						}
@@ -40,6 +44,7 @@ function App() {
 						element={
 							<>
 								{<Navbar />}
+								{<Support />}
 								<Contact />
 								<Footer />
 							</>
@@ -50,27 +55,54 @@ function App() {
 						element={
 							<>
 								{<Navbar />}
+								{<Support />}
 								<Login />
 								<Footer />
 							</>
 						}
-					/>			<Route
-					path="/AboutUs"
-					element={
-						<>
-							{<Navbar />}
-							<AboutUs />
-							<Footer />
-						</>
-					}
-				/>
-				<Route
+					/>{" "}
+					<Route
+						path="/AboutUs"
+						element={
+							<>
+								{<Support />}
+
+								{<Navbar />}
+								<AboutUs />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
 						path="/SignUp"
 						element={
 							<>
+								{<Support />}
 								{<Navbar />}
-								
 								<SignUp />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
+						path="/Services"
+						element={
+							<>
+								{<Support />}
+								{<Navbar />}
+								<Services />
+								<Pricing />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
+						path="/cook/customize"
+						element={
+							<>
+								{<Support />}
+								{<Navbar />}
+								<FoodForm />
 								<Footer />
 							</>
 						}

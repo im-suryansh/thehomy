@@ -34,6 +34,7 @@ function Login() {
 						type="password"
 						className="input"
 						placeholder="Enter your Password"
+
 					/>
 				</div>
 

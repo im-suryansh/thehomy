@@ -3,8 +3,8 @@ import "./Contact.css";
 import "../Navbar/Navbar.css";
 function Contact() {
 	return (
-		<div className="main">
-			<form className="form">
+		<div className="cmain">
+			<form className="cform">
 				<p className="title">Contact us </p>
 
 				<div className="flex">
@@ -57,7 +57,7 @@ function Contact() {
 					/>
 					<span>Message</span>
 				</label>
-				<button className="loginbtn">Submit</button>
+				<button className="loginbtn submit">Submit</button>
 			</form>
 			<div className="box">
 				<img src="../../public/contactus.png" alt="" srcset="" />

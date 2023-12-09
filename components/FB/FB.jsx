@@ -14,7 +14,7 @@ const FB = () => {
 				<div className="text ">
 					<h1>Personalised to {text1}</h1>
 				</div>
-				<div className="image">
+				<div className="fimage">
 					<img src="../../public/band.png" alt="" srcset="" />
 				</div>
 			</div>

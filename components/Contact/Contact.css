@@ -1,8 +1,8 @@
-.form {
+.cform {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 350px;
+    max-width: 400px;
     /* background-color: #e8e8e8; */
     padding: 20px;
     /* border-radius: 20px; */
@@ -65,21 +65,21 @@
     gap: 6px;
   }
   
-  .form label {
+  .cform label {
     position: relative;
   }
   
-  .form label .input {
+  .cform label .input {
     width: 100%;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 20px 30px;
     outline: 0;
     border: 1px solid rgba(105, 105, 105, 0.397);
     border-radius: 10px;
   }
   
-  .form label .input + span {
+  .cform label .input + span {
     position: absolute;
-    left: 10px;
+    left: 20px;
     top: 15px;
     color: grey;
     font-size: 0.9em;
@@ -87,24 +87,23 @@
     transition: 0.3s ease;
   }
   
-  .form label .input:placeholder-shown + span {
+  .cform label .input:placeholder-shown + span {
     top: 15px;
     font-size: 0.9em;
   }
   
-  .form label .input:focus + span,.form label .input:valid + span {
+  .cform label .input:focus + span,.cform label .input:valid + span {
     top: 30px;
     font-size: 0.7em;
     font-weight: 600;
   }
   
-  .form label .input:valid + span {
+  .cform label .input:valid + span {
     color: grey;
   }
 
-  .main{
+  .cmain{
     margin: 20px;
-   
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -112,7 +111,6 @@
   }
   
   .main img{
-    /* margin-left:  40px ; */
     height: 400px;
   }
 
@@ -128,3 +126,6 @@
     }
   }
  
+  .submit{
+    width: 380px;
+  }

@@ -1,0 +1,31 @@
+.services-main-box{
+    /* margin: 2vw; */
+    height: auto;
+}
+.services-inner-box-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.services-inner-box-2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.services-inner-box-1 img{
+    width: 40vw;
+
+}
+.services-inner-box-2 img{
+    width: 40vw;
+
+}
+.services-main-box h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 600;
+    margin: 2vw;
+}

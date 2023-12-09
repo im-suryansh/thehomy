@@ -21,15 +21,15 @@ const Why = () => {
 					data-aos-easing="linear"
 					data-aos-duration="1500"
 				>
-					<h2>
-						WHICH ARE THE MOST IMPORTANT FEATURES OF{" "}
-						<span style={{ color: "#c45254", fontWeight: "500" }}>
+					<span className="why-head">
+						Experience The Luxury with{" "}
+						<span style={{ color: "#c45254", fontWeight: "600", fontSize:'36px' }}>
 							Thehomy.
 						</span>{" "}
-					</h2>
+					</span>
 
-					<p>
-						Experience the next level of home care with The Homy's
+					<span className="why-data">
+						{/* Experience the next level of home care with The Homy's
 						exceptional features. Enjoy personalized services with
 						our pure vegetarian maids, carefully selected to align
 						with your values. Our user-friendly app allows you to
@@ -37,8 +37,9 @@ const Why = () => {
 						on your criteria to scheduling services effortlessly.
 						Benefit from flexible durations, transparent pricing,
 						and the convenience of personalized meal planning,
-						ensuring each dish suits your taste.
-					</p>
+						ensuring each dish suits your taste. */}
+						"Elevate your home care experience with The Homy! Our exceptional features include personalized services by pure vegetarian maids chosen to align with your values. Customize your care through our user-friendly app, selecting caretakers and scheduling effortlessly. Enjoy flexibility, transparent pricing, and personalized meal planning for a truly tailored touch to your home care journey."
+					</span>
 				</div>
 				<div
 					className="col-md-6 d-flex justify-content-center align-items-center flex-column "
@@ -46,12 +47,12 @@ const Why = () => {
 					data-aos-easing="linear"
 					data-aos-duration="1500"
 				>
-					<h1>
+					<div className="why-head">
 						Why go for{" "}
 						<span style={{ color: "#c45254", fontWeight: "500" }}>
 							{text2}
 						</span>{" "}
-					</h1>
+					</div>
 
 					<div className="row d-flex justify-content-center align-items-center ">
 						<div className="col-md-3 feature-icons  pt-3  d-md-flex align-items-center justify-content-center">
