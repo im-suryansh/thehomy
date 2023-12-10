@@ -46,6 +46,8 @@ function App() {
 								{<Navbar />}
 								{<Support />}
 								<Contact />
+								
+								
 								<Footer />
 							</>
 						}

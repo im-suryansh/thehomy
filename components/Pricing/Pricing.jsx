@@ -6,22 +6,22 @@ const Pricing = () => {
     const pcardsContainer = document.querySelector('.pcards');
     const pcardsContainerInner = document.querySelector('.pcards__inner');
     const pcards = Array.from(document.querySelectorAll('.pcard'));
-    const overlay = document.querySelector('.overlay');
+    const poverlay = document.querySelector('.poverlay');
 
-    const applyOverlayMask = (e) => {
-      const overlayEl = e.currentTarget;
+    const applypoverlayMask = (e) => {
+      const poverlayEl = e.currentTarget;
       const x = e.pageX - pcardsContainer.offsetLeft;
       const y = e.pageY - pcardsContainer.offsetTop;
 
-      overlayEl.style = `--opacity: 1; --x: ${x}px; --y:${y}px;`;
+      poverlayEl.style = `--opacity: 1; --x: ${x}px; --y:${y}px;`;
     };
 
-    const createOverlayCta = (overlaypcard, ctaEl) => {
-      const overlayCta = document.createElement('div');
-      overlayCta.classList.add('cta');
-      overlayCta.textContent = ctaEl.textContent;
-      overlayCta.setAttribute('aria-hidden', true);
-      overlaypcard.append(overlayCta);
+    const createpoverlayCta = (poverlaypcard, ctaEl) => {
+      const poverlayCta = document.createElement('div');
+      poverlayCta.classList.add('cta');
+      poverlayCta.textContent = ctaEl.textContent;
+      poverlayCta.setAttribute('aria-hidden', true);
+      poverlaypcard.append(poverlayCta);
     };
 
     const observer = new ResizeObserver((entries) => {
@@ -31,26 +31,26 @@ const Pricing = () => {
         let height = entry.borderBoxSize[0].blockSize;
 
         if (pcardIndex >= 0) {
-          overlay.children[pcardIndex].style.width = `${width}px`;
-          overlay.children[pcardIndex].style.height = `${height}px`;
+          poverlay.children[pcardIndex].style.width = `${width}px`;
+          poverlay.children[pcardIndex].style.height = `${height}px`;
         }
       });
     });
 
-    const initOverlaypcard = (pcardEl) => {
-      const overlaypcard = document.createElement('div');
-      overlaypcard.classList.add('pcard');
-      createOverlayCta(overlaypcard, pcardEl.lastElementChild);
-      overlay.append(overlaypcard);
+    const initpoverlaypcard = (pcardEl) => {
+      const poverlaypcard = document.createElement('div');
+      poverlaypcard.classList.add('pcard');
+      createpoverlayCta(poverlaypcard, pcardEl.lastElementChild);
+      poverlay.append(poverlaypcard);
       observer.observe(pcardEl);
     };
 
-    pcards.forEach(initOverlaypcard);
-    document.body.addEventListener('pointermove', applyOverlayMask);
+    pcards.forEach(initpoverlaypcard);
+    document.body.addEventListener('pointermove', applypoverlayMask);
 
     // Clean up function
     return () => {
-      document.body.removeEventListener('pointermove', applyOverlayMask);
+      document.body.removeEventListener('pointermove', applypoverlayMask);
       observer.disconnect();
     };
   }, []);
@@ -95,7 +95,7 @@ const Pricing = () => {
         </div>
       </div>
       
-      <div className="overlay pcards__inner"></div>
+      <div className="poverlay pcards__inner"></div>
     </div>
   </div>
   </div>

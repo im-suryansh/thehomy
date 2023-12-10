@@ -1,7 +1,4 @@
-
-
 .pricepage {
-    /* height: 100vh; */
 	overflow: hidden;
 	display: grid;
 	place-items: center;
@@ -11,7 +8,7 @@
 	color: #ddd;
 }
 
-ul {
+.pcard__price ul {
 	list-style: none;
 }
 
@@ -110,7 +107,7 @@ ul {
 	font-weight: 600;
 }
 
-.overlay {
+.poverlay {
 	position: absolute;
 	inset: 0;
 	pointer-events: none;
@@ -130,13 +127,13 @@ ul {
 	will-change: mask;
 }
 
-.overlay .pcard {
+.poverlay .pcard {
 	background-color: hsla(var(--hsl), 0.15);
 	border-color: hsla(var(--hsl), 1);
 	box-shadow: 0 0 0 1px inset hsl(var(--hsl));
 }
 
-.overlay .cta {
+.poverlay .cta {
 	display: block;
 	grid-row: -1;
 	width: 100%;
@@ -144,12 +141,12 @@ ul {
 	box-shadow: 0 0 0 1px hsl(var(--hsl));
 }
 
-:not(.overlay) > .pcard {
+:not(.poverlay) > .pcard {
 	transition: 400ms background ease;
 	will-change: background;
 }
 
-:not(.overlay) > .pcard:hover {
+:not(.poverlay) > .pcard:hover {
 	--lightness: 95%;
 	background: hsla(var(--hsl), 0.1);
 }

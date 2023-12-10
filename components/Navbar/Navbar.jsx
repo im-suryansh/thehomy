@@ -9,12 +9,12 @@ const Navbar = () => {
 		<div className="Navbar">
 			<Link to="/">
 				<div className="logo">
-					<img src=".././public/logo.png" alt="logo" />
+					<img src="./logo.png" alt="logo" />
 				</div>
 			</Link>
 
 			<form className="search">
-				<img src="../public/search.png" alt="" />
+				<img src="./search.png" alt="" />
 				<input type="text" placeholder="Enter Your Location" />
 				<button type="submit">
 					<LuLocateFixed /> Locate me

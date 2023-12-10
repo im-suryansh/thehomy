@@ -8,9 +8,9 @@
 	background-color: #ffffff;
 	width: 100%;
 }
-div {
+/* div {
 	margin-bottom: 15px;
-}
+} */
 .veg-non label {
 	display: flex;
 	flex-direction: row;
@@ -21,17 +21,17 @@ div {
 	justify-content: space-around;
 }
 
-label {
+/* label {
 	display: block;
 	margin-bottom: 5px;
-}
+} */
 
-input[type="radio"],
-input[type="checkbox"] {
+.forrm input[type="radio"],
+.forrm input[type="checkbox"] {
 	margin-right: 5px;
 }
 
-input[type="range"] {
+.forrm input[type="range"] {
     color: #e23744;
 	align-self: center;
 	width: 90%;
@@ -54,16 +54,14 @@ input[type="range"] {
 	background-color: #ff3e3e;
 }
 
-select {
+.forrm select {
 	width: 200px;
 	text-align: center;
-	/* height: 60px; */
-	/* padding: 8px; */
-	/* margin-top: 5px; */
+
 }
 
 /* Custom styling for the checkboxes */
-input[type="checkbox"] {
+.formm input[type="checkbox"] {
 	transform: scale(1.5);
 }
 
@@ -101,19 +99,9 @@ input[type="checkbox"] {
 	font-family: poppins;
     text-shadow: 1 1 10px rgba(192, 192, 192, 0.5);
 }
-h4 {
-	margin-top: 40px;
-}
 
 .sub-res {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-input[type="range"] {
-    width: 100%; /* Make the slider fill its container */
-    height: 10px; /* Set the height of the track */
-    background-color: #ecf0f1; /* Set the color of the track */
-    border-radius: 5px; /* Optional: Add rounded corners to the track */
-    outline: none; /* Remove the default outline */
-  }
