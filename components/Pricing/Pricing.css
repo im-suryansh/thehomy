@@ -1,4 +1,5 @@
 .pricepage {
+	margin-top: 20vh;
 	overflow: hidden;
 	display: grid;
 	place-items: center;

@@ -1,31 +1,55 @@
-.services-main-box{
-    /* margin: 2vw; */
-    height: auto;
+.services-main-box {
+	/* margin: 2vw; */
+	height: auto;
 }
-.services-inner-box-1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.services-inner-box-1 {
+	margin: 2vw;
+    margin-top:20vh ;
 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
-.services-inner-box-2{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-
+.services-inner-box-2 {
+	margin: 2vw;
+    margin-top:20vh ;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
 }
-.services-inner-box-1 img{
-    width: 40vw;
-
+.services-inner-box-1 img {
+	width: 40vw;
+	margin-right: 40px;
 }
-.services-inner-box-2 img{
-    width: 40vw;
-
+.services-inner-box-2 img {
+	width: 40vw;
 }
-.services-main-box h1{
-    text-align: center;
-    font-size: 3vw;
-    font-weight: 600;
-    margin: 2vw;
+.services-main-box h1 {
+	text-align: center;
+	font-size: 3vw;
+	font-weight: 600;
+	margin: 2vw;
+}
+.services-main-box h2 {
+	/* text-align: center; */
+	font-size: 2.2vw;
+	font-weight: 600;
+	/* margin: 1vw; */
+}
+.li-style {
+	margin: 20px;
+	font-size: 24px;
+	list-style: none;
+	list-style-type: none;
+}
+.service-text {
+	font-weight: 450;
+	font-size: 26px;
+}
+.servicebtn {
+	position: absolute;
+	/* margin-bottom: 50px; */
+	right: 40px;
+	width: 200px;
 }

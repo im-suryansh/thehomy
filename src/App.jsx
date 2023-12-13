@@ -16,6 +16,7 @@ import Support from "../components/Support";
 import FoodForm from "../components/foodform";
 import Pricing from "../components/Pricing";
 import Services from "../components/Services";
+import CookPage from "../components/CookPage";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -46,8 +47,7 @@ function App() {
 								{<Navbar />}
 								{<Support />}
 								<Contact />
-								
-								
+
 								<Footer />
 							</>
 						}
@@ -105,6 +105,17 @@ function App() {
 								{<Support />}
 								{<Navbar />}
 								<FoodForm />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
+						path="/cook"
+						element={
+							<>
+								{<Support />}
+								{<Navbar />}
+								<CookPage />
 								<Footer />
 							</>
 						}

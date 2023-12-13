@@ -1,0 +1,13 @@
+.CookPage-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.CookPage-container img{
+    width: 400px;
+}
+/* .CookPage-inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */

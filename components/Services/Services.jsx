@@ -1,108 +1,183 @@
 import React from "react";
 import "./Services.css";
+import { Link } from "react-router-dom";
 
 const Services = () => {
 	return (
 		<div className="services-main-box">
 			<div className="services-box">
-				<h1>Cook</h1>
+				<h1>Our Services</h1>
 				<div className="services-inner-box-1">
 					<img src="../../public/temp1.jpg" alt="" />
-					<ul>
-						<li>
-							<span className="li-style">-</span> Looks selection
-						</li>
-						<li>
-							<span className="li-style">-</span> Age
-						</li>
-						<li>
-							<span className="li-style">-</span> Gender
-						</li>
-						<li>
-							<span className="li-style">-</span> Daily food menu
-						</li>
-						<li>
-							<span className="li-style">-</span> Flexible timing
-						</li>
-						<li>
-							<span className="li-style">-</span> Veg
-						</li>
-						<li>
-							<span className="li-style">-</span> Non-veg
-						</li>
-						<li>
-							<span className="li-style">-</span> Easily
-							Rescheduling
-						</li>
-					</ul>
+					<div>
+						<h1>Kitchen King</h1>
+						<h2>Chef</h2>
+
+						<span className="service-text">
+							Our cooks at Thehomy pour dedication into every
+							dish, ensuring your meals are crafted with love and
+							exceptional taste.
+						</span>
+						<ul>
+							<li>
+								<span className="li-style">-</span>Weekly Meal
+								Planning
+							</li>
+							<li>
+								<span className="li-style">-</span>Daily Meal
+								Planning
+							</li>
+							<li>
+								<span className="li-style">-</span>Trained cooks
+							</li>
+							<li>
+								<span className="li-style">-</span>Trained cooks
+							</li>
+							<li>
+								<span className="li-style">-</span>Set Your
+								Spicy meter
+							</li>
+							<li>
+								<span className="li-style">-</span>Set Your
+								calorie meter
+							</li>
+							<li>
+								<span className="li-style">-</span>Daily
+								customer feedback
+							</li>
+
+							<li>
+								<span className="li-style">-</span>Kitchen kit.
+							</li>
+						</ul>
+					</div>
 				</div>
-				<h1>Baby Sitter</h1>
+				<Link to="/cook" style={{ textDecorationLine: "none" }}>
+					<div className="loginbtn servicebtn">Book Now</div>
+				</Link>
 				<div className="services-inner-box-2">
-					<img src="../../public/temp1.jpg" alt="" />
-					<ul>
-						<li>
-							<span className="li-style">-</span> 24*7
-						</li>
-						<li>
-							<span className="li-style">-</span> Looks
-						</li>
-						<li>
-							<span className="li-style">-</span> Age
-						</li>
-						<li>
-							<span className="li-style">-</span> flexible timing
-						</li>
-						<li>
-							<span className="li-style">-</span> Trustworthiness
-						</li>
-						<li>
-							<span className="li-style">-</span> Quality
-							Assurance
-						</li>
+					<img src="../../public/temp2.png" alt="" />
+					<div>
+						<h1>Nursing Nanny</h1>
+						<h2>Caretaker</h2>
 
-						<li>
-							<span className="li-style">-</span> Caste
-						</li>
-						<li>
-							<span className="li-style">-</span> Babysitter
-						</li>
-					</ul>
+						<span className="service-text">
+							Experience peace of mind with Thehomy's professional
+							sitters. Our stringent selection process ensures
+							top-notch service. More than just nannies, we focus
+							on holistic child development, providing a safe and
+							stimulating environment. Our trained sitters guide
+							parents on safety and health, offering specially
+							designed programs to meet the needs of both kids and
+							parents.
+						</span>
+						<ul>
+							<li>
+								<span className="li-style">-</span>Police
+								verified
+							</li>
+							<li>
+								<span className="li-style">-</span>Caring
+							</li>
+							<li>
+								<span className="li-style">-</span>Trustworthy
+							</li>
+							<li>
+								<span className="li-style">-</span>Caring
+							</li>
+
+							<li>
+								<span className="li-style">-</span>Educated
+								Babysitters
+							</li>
+
+							<li>
+								<span className="li-style">-</span>Nursing kit
+							</li>
+						</ul>
+					</div>
 				</div>
-				<h1>Home Cleaner</h1>
+				<Link to="/cook" style={{ textDecorationLine: "none" }}>
+					<div className="loginbtn servicebtn">Book Now</div>
+				</Link>
+
 				<div className="services-inner-box-1">
-					<img src="../../public/temp1.jpg" alt="" />
-					
-					<ul>
-						<li>
-							<span className="li-style">-</span> Flexible timing
-						</li>
-						<li>
-							<span className="li-style">-</span> Toilet cleaning
-						</li>
-						<li>
-							<span className="li-style">-</span> Dusting
-						</li>
-						<li>
-							<span className="li-style">-</span> Freedom to
-							customize
-						</li>
-						<li>
-							<span className="li-style">-</span> Quality
-							assurance
-						</li>
-						<li>
-							<span className="li-style">-</span> Daily feedback
-							from customers
-						</li>
-						<li>
-							<span className="li-style">-</span> Gender
-						</li>
+					<img src="../../public/temp3.png" alt="" />
+					<div>
+						<h1>Mr. Hygiene</h1>
+						<h2>Toilet Cleaner</h2>
 
-						<li>
-							<span className="li-style">-</span> Looks selection
-						</li>
-					</ul>
+						<span className="service-text">
+							At Thehomy, our toilet cleaners are clean,
+							dedicated, and trusted. They're verified by the
+							police, carry their own kits, and ensure a spotless
+							and safe bathroom for you.
+						</span>
+						<ul>
+							<li>
+								<span className="li-style">-</span>Police
+								verified
+							</li>
+							<li>
+								<span className="li-style">-</span>Hygiene
+								checked
+							</li>
+
+							<li>
+								<span className="li-style">-</span>Trained staff
+							</li>
+
+							<li>
+								<span className="li-style">-</span>Toilet
+								cleaner kit
+							</li>
+						</ul>
+					</div>
 				</div>
+				<Link to="/cook" style={{ textDecorationLine: "none" }}>
+					<div className="loginbtn servicebtn">Book Now</div>
+				</Link>
+
+				<div className="services-inner-box-2">
+					<img src="../../public/temp4.png" alt="" />
+					<div>
+						<h1>Dust Guards</h1>
+						<h2>Cleaners</h2>
+
+						<span className="service-text">
+							Our house cleaners at Thehomy are your secure
+							choice. Each is safety-checked, police-verified, and
+							trustworthy. With us, you're not just getting
+							cleaning services – you're getting peace of mind,
+							knowing your home is in safe and reliable hands.
+						</span>
+						<ul>
+							<li>
+								<span className="li-style">-</span>Trained staff
+							</li>
+							<li>
+								<span className="li-style">-</span>Our cleaners Prioritize your satisfaction
+							</li>
+							<li>
+								<span className="li-style">-</span>Equipped with experience and ongoing training
+							</li>
+							<li>
+								<span className="li-style">-</span>Adaptable to your needs
+							</li>
+
+							<li>
+								<span className="li-style">-</span>Our cleaners maintain a professional demeanor
+							</li>
+
+							<li>
+								<span className="li-style">-</span>They work efficiently to provide quality service within a reasonable timeframe
+							</li>
+						</ul>
+					</div>
+				</div>
+				<Link to="/cook" style={{ textDecorationLine: "none" }}>
+					<div className="loginbtn servicebtn">Book Now</div>
+				</Link>
 			</div>
 		</div>
 	);

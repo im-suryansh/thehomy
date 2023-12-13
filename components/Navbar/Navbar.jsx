@@ -31,8 +31,12 @@ const Navbar = () => {
 					>
 						<span>About Us</span>
 					</Link>
-
-					<span>Services</span>
+					<Link
+						to="/Services"
+						style={{ color: "black", textDecorationLine: "none" }}
+					>
+						<span>Services</span>
+					</Link>
 
 					<Link
 						to="/contact"
