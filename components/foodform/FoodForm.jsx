@@ -7,7 +7,7 @@ const FoodForm = () => {
 
 	// State for sliders
 	const [sliderValue1, setSliderValue1] = useState(0);
-	const [sliderValue2, setSliderValue2] = useState(0);
+	const [sliderValue2, setSliderValue2] = useState(1500);
 
 	// State for dropdown menu
 	const [selectedDropdown, setSelectedDropdown] = useState("");
@@ -121,28 +121,80 @@ const FoodForm = () => {
 	const renderCheckboxes = () => {
 		if (selectedButton === "button1") {
 			return (
-				<div className="drop-btn-cb">
-					<label>
-						<input
-							type="checkbox"
-							checked={button1Checkbox1}
-							onChange={handleButton1CheckboxChange1}
-						/>
-						7:00 AM to 9:00 AM
-					</label>
-					<label>
-						<input
-							type="checkbox"
-							checked={button1Checkbox2}
-							onChange={handleButton1CheckboxChange2}
-						/>
-						9:00 AM to 11:00 AM
-					</label>
-				</div>
+				<>
+					<div className="drop-btn-cb">
+						<h5>Breakfast</h5>
+						<label>
+							<input
+								type="checkbox"
+								checked={button1Checkbox1}
+								onChange={handleButton1CheckboxChange1}
+							/>
+							7:00 AM to 9:00 AM
+						</label>
+						<label>
+							<input
+								type="checkbox"
+								checked={button1Checkbox2}
+								onChange={handleButton1CheckboxChange2}
+							/>
+							9:00 AM to 11:00 AM
+						</label>
+					</div>
+					<div className="drop-btn-cb">
+						<h5>Lunch</h5>
+
+						<label>
+							<input
+								type="checkbox"
+								checked={button2Checkbox1}
+								onChange={handleButton2CheckboxChange1}
+							/>
+							11:00 AM to 1:00 PM
+						</label>
+						<label>
+							<input
+								type="checkbox"
+								checked={button2Checkbox2}
+								onChange={handleButton2CheckboxChange2}
+							/>
+							1:00 PM to 3:00 PM
+						</label>
+						<label>
+							<input
+								type="checkbox"
+								checked={button2Checkbox3}
+								onChange={handleButton2CheckboxChange3}
+							/>
+							3:00 PM to 5:00 PM
+						</label>
+					</div>
+				</>
 			);
 		} else if (selectedButton === "button2") {
 			return (
 				<div className="drop-btn-cb">
+					<div className="drop-btn-cb">
+						<h5>Breakfast</h5>
+						<label>
+							<input
+								type="checkbox"
+								checked={button1Checkbox1}
+								onChange={handleButton1CheckboxChange1}
+							/>
+							7:00 AM to 9:00 AM
+						</label>
+						<label>
+							<input
+								type="checkbox"
+								checked={button1Checkbox2}
+								onChange={handleButton1CheckboxChange2}
+							/>
+							9:00 AM to 11:00 AM
+						</label>
+					</div>
+					<h5>Lunch</h5>
+
 					<label>
 						<input
 							type="checkbox"
@@ -167,11 +219,58 @@ const FoodForm = () => {
 						/>
 						3:00 PM to 5:00 PM
 					</label>
+					<h5>Dinner</h5>
+
+					<label>
+						<input
+							type="checkbox"
+							checked={button3Checkbox1}
+							onChange={handleButton3CheckboxChange1}
+						/>
+						6:00 PM to 7:00 PM
+					</label>
+					<label>
+						<input
+							type="checkbox"
+							checked={button3Checkbox2}
+							onChange={handleButton3CheckboxChange2}
+						/>
+						7:00 PM to 8:00 PM
+					</label>
+					<label>
+						<input
+							type="checkbox"
+							checked={button3Checkbox3}
+							onChange={handleButton3CheckboxChange3}
+						/>
+						8:00 PM to 9:00 PM
+					</label>
 				</div>
 			);
 		} else if (selectedButton === "button3") {
 			return (
-				<div className="drop-btn-cb">
+				
+					<div className="drop-btn-cb">
+						<h5>Breakfast</h5>
+						<label>
+							<input
+								type="checkbox"
+								checked={button1Checkbox1}
+								onChange={handleButton1CheckboxChange1}
+							/>
+							7:00 AM to 9:00 AM
+						</label>
+						<label>
+							<input
+								type="checkbox"
+								checked={button1Checkbox2}
+								onChange={handleButton1CheckboxChange2}
+							/>
+							9:00 AM to 11:00 AM
+						</label>
+				
+					<h5>Dinner</h5>
+
 					<label>
 						<input
 							type="checkbox"
@@ -205,10 +304,13 @@ const FoodForm = () => {
 	};
 
 	return (
+		
 		<div className="FoodForm">
 			<form className="forrm bdr" onSubmit={handleSubmit}>
 				{/* Radio Buttons 1 */}
-        <div className="form-head">Gender:</div>
+				<div className="form-head">
+					<img src="../../public/Gender.svg" alt="" />
+				</div>
 				<div className="veg-non bdr">
 					<label>
 						<input
@@ -217,8 +319,9 @@ const FoodForm = () => {
 							checked={selectedOption1 === "option1"}
 							onChange={handleRadioChange1}
 						/>
-						<h4>🧍‍♂️ Male</h4>
-            
+						<h6>
+							<img src="../../public/Male.svg" alt="" /> Male
+						</h6>
 					</label>
 					<label>
 						<input
@@ -227,19 +330,22 @@ const FoodForm = () => {
 							checked={selectedOption1 === "option2"}
 							onChange={handleRadioChange1}
 						/>
-						<h4>🧍‍♀️ Female</h4>
+						<h6>
+							<img src="../../public/Female.svg" alt="" /> Female
+						</h6>
 					</label>
 				</div>
 
 				{/* Slider 1 */}
-        <div className="form-head">Spicy Meter:</div>
+				<div className="form-head">
+					<img src="../../public/SpicyMeter.svg" alt="" />
+				</div>
 				<div className="bdr">
 					<label>
-          <h4>{sliderValue1}</h4> 
-           </label>
-          <br/>
+						<h6>{sliderValue1}</h6>
+					</label>
+					<br />
 					<input
-           
 						type="range"
 						min="0"
 						max="5"
@@ -249,7 +355,9 @@ const FoodForm = () => {
 				</div>
 
 				{/* Radio Buttons 2 */}
-        <div className="form-head">Food Type:</div>
+				<div className="form-head">
+					<img src="../../public/Food.svg" alt="" />
+				</div>
 				<div className="veg-non bdr">
 					<label>
 						<input
@@ -258,7 +366,9 @@ const FoodForm = () => {
 							checked={selectedOption2 === "option3"}
 							onChange={handleRadioChange2}
 						/>
-						<h4>🟢 Veg</h4>
+						<h6>
+							<img src="../../public/veg.svg" alt="" /> Veg
+						</h6>
 					</label>
 					<label>
 						<input
@@ -267,20 +377,25 @@ const FoodForm = () => {
 							checked={selectedOption2 === "option4"}
 							onChange={handleRadioChange2}
 						/>
-						<h4>🔴 Non Veg</h4>
+						<h6>
+							<img src="../../public/Non-veg.svg" alt="" /> Non
+							Veg
+						</h6>
 					</label>
 				</div>
 
 				{/* Slider 2 */}
-        <div className="form-head">Calorie meter (Kcal):</div> 
+				<div className="form-head">
+					<img src="../../public/Calorie.svg" alt="" />
+				</div>
 				<div className="bdr">
 					<label>
-            <h4>{sliderValue2}</h4>
-            </label>
-          <br/>
+						<h6>{sliderValue2}</h6>
+					</label>
+					<br />
 					<input
 						type="range"
-						min="1000"
+						min="1500"
 						max="5000"
 						value={sliderValue2}
 						onChange={handleSliderChange2}
@@ -288,12 +403,12 @@ const FoodForm = () => {
 				</div>
 
 				{/* Dropdown Menu */}
-						<div className="form-head">Caste:</div>
+				{/* <div className="form-head">Caste:</div>
 
-				<div className="bdr"> 
+				<div className="bdr">
 					<label>
-            <br />
-						<select 
+						<br />
+						<select
 							value={selectedDropdown}
 							onChange={handleDropdownChange}
 						>
@@ -303,53 +418,58 @@ const FoodForm = () => {
 							<option value="optionC">Option C</option>
 						</select>
 					</label>
-				</div>
+				</div> */}
 
 				{/* Checkboxes 1 */}
-			
 
 				{/* Button 1 with Checkboxes */}
-        <div className="form-head">Timings:</div>
-        <div className="drop-btn bdr">
-				<div >
-					<button
-						type="button"
-						className="custbtn"
-						onClick={() => handleButtonClick("button1")}
-					>
-						Breakfast ☕
-					</button>
-					{selectedButton === "button1" && renderCheckboxes()}
+				<div className="form-head">
+					<img src="../../public/TimeSlots.svg" alt="" srcset="" />
 				</div>
+				<div className="drop-btn bdr">
+					<div>
+						<button
+							type="button"
+							className="custbtn"
+							onClick={() => handleButtonClick("button1")}
+						>
+							Breakfast & Lunch
+						</button>
+						{selectedButton === "button1" && renderCheckboxes()}
+					</div>
 
-				{/* Button 2 with Checkboxes */}
-				<div>
-					<button
-						type="button"
-						className="custbtn"
-						onClick={() => handleButtonClick("button2")}
-					>
-						Lunch 🥪
-					</button>
-					{selectedButton === "button2" && renderCheckboxes()}
-				</div>
+					{/* Button 2 with Checkboxes */}
+					<div>
+						<button
+							type="button"
+							className="custbtn"
+							onClick={() => handleButtonClick("button2")}
+						>
+							Breakfast, Lunch & Dinner
+						</button>
+						{selectedButton === "button2" && renderCheckboxes()}
+					</div>
 
-				{/* Button 3 with Checkboxes */}
-				<div >
-					<button
-						type="button"
-						className="custbtn"
-						onClick={() => handleButtonClick("button3")}
-					>
-						Dinner 🍽️
-					</button>
-					{selectedButton === "button3" && renderCheckboxes()}
+					{/* Button 3 with Checkboxes */}
+					<div>
+						<button
+							type="button"
+							className="custbtn"
+							onClick={() => handleButtonClick("button3")}
+						>
+							Breakfast & Dinner
+						</button>
+						{selectedButton === "button3" && renderCheckboxes()}
+					</div>
 				</div>
-        </div>
 				{/* Buttons */}
 				<div className="sub-res">
-					<button type="submit" className="loginbtn">Submit</button>
-					<button type="reset "className="loginbtn">Reset</button>
+					<button type="submit" className="loginbtn">
+						Submit
+					</button>
+					<button type="reset " className="loginbtn">
+						Reset
+					</button>
 				</div>
 			</form>
 		</div>

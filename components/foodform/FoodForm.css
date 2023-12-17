@@ -1,7 +1,12 @@
+
 .FoodForm {
+	position: relative;
+	left: 30vw;
 	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	justify-content: center;
-	width: 40vw;
+	width: 600px;
 }
 
 .forrm {
@@ -12,8 +17,10 @@
 	margin-bottom: 15px;
 } */
 .veg-non label {
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 
 .veg-non {
@@ -21,18 +28,13 @@
 	justify-content: space-around;
 }
 
-/* label {
-	display: block;
-	margin-bottom: 5px;
-} */
-
 .forrm input[type="radio"],
 .forrm input[type="checkbox"] {
 	margin-right: 5px;
 }
 
 .forrm input[type="range"] {
-    color: #e23744;
+	color: #e23744;
 	align-self: center;
 	width: 90%;
 	margin-top: 5px;
@@ -54,11 +56,17 @@
 	background-color: #ff3e3e;
 }
 
-.forrm select {
-	width: 200px;
-	text-align: center;
-
+/* .forrm input[type="radio"] {
+	appearance: none; 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 50%; 
+	border: 2px solid gold;
+	outline: none; 
 }
+.formm input[type="radio"]:checked {
+	background-color: gold; 
+} */
 
 /* Custom styling for the checkboxes */
 .formm input[type="checkbox"] {
@@ -97,7 +105,11 @@
 	text-transform: uppercase; /* Convert text to uppercase for a polished look */
 	/* font-weight: bold; */
 	font-family: poppins;
-    text-shadow: 1 1 10px rgba(192, 192, 192, 0.5);
+	text-shadow: 1 1 10px rgba(192, 192, 192, 0.5);
+}
+
+.form-head img {
+	height: 18px;
 }
 
 .sub-res {

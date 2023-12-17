@@ -156,21 +156,27 @@ const Services = () => {
 								<span className="li-style">-</span>Trained staff
 							</li>
 							<li>
-								<span className="li-style">-</span>Our cleaners Prioritize your satisfaction
+								<span className="li-style">-</span>Our cleaners
+								Prioritize your satisfaction
 							</li>
 							<li>
-								<span className="li-style">-</span>Equipped with experience and ongoing training
+								<span className="li-style">-</span>Equipped with
+								experience and ongoing training
 							</li>
 							<li>
-								<span className="li-style">-</span>Adaptable to your needs
+								<span className="li-style">-</span>Adaptable to
+								your needs
 							</li>
 
 							<li>
-								<span className="li-style">-</span>Our cleaners maintain a professional demeanor
+								<span className="li-style">-</span>Our cleaners
+								maintain a professional demeanor
 							</li>
 
 							<li>
-								<span className="li-style">-</span>They work efficiently to provide quality service within a reasonable timeframe
+								<span className="li-style">-</span>They work
+								efficiently to provide quality service within a
+								reasonable timeframe
 							</li>
 						</ul>
 					</div>
