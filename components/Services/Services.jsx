@@ -97,7 +97,7 @@ const Services = () => {
 						</ul>
 					</div>
 				</div>
-				<Link to="/cook" style={{ textDecorationLine: "none" }}>
+				<Link to="/Caretaker" style={{ textDecorationLine: "none" }}>
 					<div className="loginbtn servicebtn">Book Now</div>
 				</Link>
 
@@ -181,7 +181,7 @@ const Services = () => {
 						</ul>
 					</div>
 				</div>
-				<Link to="/cook" style={{ textDecorationLine: "none" }}>
+				<Link to="/Dustguard" style={{ textDecorationLine: "none" }}>
 					<div className="loginbtn servicebtn">Book Now</div>
 				</Link>
 			</div>

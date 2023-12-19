@@ -304,7 +304,7 @@ const FoodForm = () => {
 	};
 
 	return (
-		
+
 		<div className="FoodForm">
 			<form className="forrm bdr" onSubmit={handleSubmit}>
 				{/* Radio Buttons 1 */}
@@ -467,9 +467,7 @@ const FoodForm = () => {
 					<button type="submit" className="loginbtn">
 						Submit
 					</button>
-					<button type="reset " className="loginbtn">
-						Reset
-					</button>
+				
 				</div>
 			</form>
 		</div>

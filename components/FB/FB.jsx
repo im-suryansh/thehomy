@@ -15,7 +15,19 @@ const FB = () => {
 					<h1>Personalised to {text1}</h1>
 				</div>
 				<div className="fimage">
-					<img src="../../public/band.png" alt="" srcset="" />
+					<div>
+						<div className="top">
+						<img src="../../public/Looksselection.svg" alt="" srcset="" />
+						<img src="../../public/genderselection.svg" alt="" srcset="" />
+						<img src="../../public/ageselection.svg" alt="" srcset="" />
+						</div>
+					</div>
+					<div className="bottom">
+					<img src="../../public/dailyfoodselection.svg" alt="" srcset="" />
+					<img src="../../public/flexibletimings.svg" alt="" srcset="" />
+					<img src="../../public/vnvsec.svg" alt="" srcset="" />
+
+					</div>
 				</div>
 			</div>
 		</div>

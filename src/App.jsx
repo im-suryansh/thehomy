@@ -17,6 +17,9 @@ import FoodForm from "../components/foodform";
 import Pricing from "../components/Pricing";
 import Services from "../components/Services";
 import CookPage from "../components/CookPage";
+import CaretakerPage from "../components/CaretakerPage/CaretakerPage";
+import Payment from "../components/Payment";
+import Dustguard from "../components/DustGuard";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -116,6 +119,40 @@ function App() {
 								{<Support />}
 								{<Navbar />}
 								<CookPage />
+								<Footer />
+							</>
+						}
+					/>
+
+					<Route
+						path="/payment"
+						element={
+							<>
+								
+								{<Navbar />}
+								<Payment />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
+						path="/Caretaker"
+						element={
+							<>
+								<Support />
+								{<Navbar />}
+								<CaretakerPage />
+								<Footer />
+							</>
+						}
+					/>
+					<Route
+						path="/Dustguard"
+						element={
+							<>
+								<Support />
+								{<Navbar />}
+								<Dustguard />
 								<Footer />
 							</>
 						}
