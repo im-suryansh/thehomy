@@ -16,7 +16,7 @@ const CaretakerPage = () => {
 						to="/payment"
 						style={{ textDecorationLine: "none" }}
 					>
-						<div className="loginbtn ">
+						<div className="secbutton ">
 							Get Started
 							<MdArrowOutward />
 						</div>

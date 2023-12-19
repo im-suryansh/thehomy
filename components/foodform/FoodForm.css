@@ -1,4 +1,6 @@
-
+.Food-page{
+	width: 100vw;
+}
 .FoodForm {
 	position: relative;
 	left: 30vw;
@@ -9,14 +11,14 @@
 	width: 600px;
 }
 
-.forrm {
+.forrm{
 	background-color: #ffffff;
 	width: 100%;
 }
 /* div {
 	margin-bottom: 15px;
 } */
-.veg-non label {
+.veg-non label{
 	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
@@ -111,7 +113,12 @@
 .form-head img {
 	height: 18px;
 }
-
+.inner-img img{
+	height: 40px;
+}
+.inner-img2 img{
+	height: 25px;
+}
 .sub-res {
 	display: flex;
 	align-items: center;

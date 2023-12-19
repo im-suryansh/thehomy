@@ -10,14 +10,44 @@ const CookPage = () => {
 				<div>
 					<h1>Kitchen King</h1>
 					<h2>Cook</h2>
-					<Link to="/cook/customize"  style={{ textDecorationLine: "none" }}> 
-                    <div className="loginbtn ">
-						Customize your way
-						<MdArrowOutward />
+					<div className="cardbox">
+						<div className="ccard">
+							<div className="ccard-details">
+								<p className="ctext-title">Essential</p>
+								<p className="ctext-body">
+									Here are the details of the card
+								</p>
+							</div>
+							<button class="ccard-button">More info</button>
+						</div>
+						<div className="ccard">
+							<div className="ccard-details">
+								<p className="ctext-title">Expert</p>
+								<p className="ctext-body">
+									Here are the details of the card
+								</p>
+							</div>
+							<button class="ccard-button">More info</button>
+						</div>
+						<div className="ccard">
+							<div className="ccard-details">
+								<p className="ctext-title">Celebrity</p>
+								<p className="ctext-body">
+									Here are the details of the card
+								</p>
+							</div>
+							<button class="ccard-button">More info</button>
+						</div>
 					</div>
-
-                        </Link>
-				
+					<Link
+						to="/cook/customize"
+						style={{ textDecorationLine: "none" }}
+					>
+						<div className="secbutton cookbtn">
+							Customize your way
+							<MdArrowOutward />
+						</div>
+					</Link>
 				</div>
 
 				<img src="../../public/temp1.jpg" alt="" />

@@ -249,26 +249,25 @@ const FoodForm = () => {
 			);
 		} else if (selectedButton === "button3") {
 			return (
-				
-					<div className="drop-btn-cb">
-						<h5>Breakfast</h5>
-						<label>
-							<input
-								type="checkbox"
-								checked={button1Checkbox1}
-								onChange={handleButton1CheckboxChange1}
-							/>
-							7:00 AM to 9:00 AM
-						</label>
-						<label>
-							<input
-								type="checkbox"
-								checked={button1Checkbox2}
-								onChange={handleButton1CheckboxChange2}
-							/>
-							9:00 AM to 11:00 AM
-						</label>
-				
+				<div className="drop-btn-cb">
+					<h5>Breakfast</h5>
+					<label>
+						<input
+							type="checkbox"
+							checked={button1Checkbox1}
+							onChange={handleButton1CheckboxChange1}
+						/>
+						7:00 AM to 9:00 AM
+					</label>
+					<label>
+						<input
+							type="checkbox"
+							checked={button1Checkbox2}
+							onChange={handleButton1CheckboxChange2}
+						/>
+						9:00 AM to 11:00 AM
+					</label>
+
 					<h5>Dinner</h5>
 
 					<label>
@@ -304,106 +303,121 @@ const FoodForm = () => {
 	};
 
 	return (
+		<div className="Food-page">
+			<div className="FoodForm">
+				<form className="forrm bdr" onSubmit={handleSubmit}>
+					{/* Radio Buttons 1 */}
+					<div className="form-head">
+						<img src="../../public/Gender.svg" alt="" />
+					</div>
+					<div className="veg-non bdr">
+						<label>
+							<input
+								type="radio"
+								value="option1"
+								checked={selectedOption1 === "option1"}
+								onChange={handleRadioChange1}
+							/>
+							<h6>
+								<span className="inner-img">
+									<img src="../../public/Male.svg" alt="" />{" "}
+									Male
+								</span>
+							</h6>
+						</label>
+						<label>
+							<input
+								type="radio"
+								value="option2"
+								checked={selectedOption1 === "option2"}
+								onChange={handleRadioChange1}
+							/>
+							<h6>
+								<span className="inner-img">
+									<img src="../../public/Female.svg" alt="" />{" "}
+									Female
+								</span>
+							</h6>
+						</label>
+					</div>
 
-		<div className="FoodForm">
-			<form className="forrm bdr" onSubmit={handleSubmit}>
-				{/* Radio Buttons 1 */}
-				<div className="form-head">
-					<img src="../../public/Gender.svg" alt="" />
-				</div>
-				<div className="veg-non bdr">
-					<label>
+					{/* Slider 1 */}
+					<div className="form-head">
+						<img src="../../public/SpicyMeter.svg" alt="" />
+					</div>
+					<div className="bdr">
+						<label>
+							<h6>{sliderValue1}</h6>
+						</label>
+						<br />
 						<input
-							type="radio"
-							value="option1"
-							checked={selectedOption1 === "option1"}
-							onChange={handleRadioChange1}
+							type="range"
+							min="0"
+							max="5"
+							value={sliderValue1}
+							onChange={handleSliderChange1}
 						/>
-						<h6>
-							<img src="../../public/Male.svg" alt="" /> Male
-						</h6>
-					</label>
-					<label>
+					</div>
+
+					{/* Radio Buttons 2 */}
+					<div className="form-head">
+						<img src="../../public/Food.svg" alt="" />
+					</div>
+					<div className="veg-non bdr">
+						<label>
+							<input
+								type="radio"
+								value="option3"
+								checked={selectedOption2 === "option3"}
+								onChange={handleRadioChange2}
+							/>
+							<h6>
+								<span className="inner-img2">
+									<img src="../../public/veg.svg" alt="" />{" "}
+									Veg
+								</span>
+							</h6>
+						</label>
+						<label>
+							<input
+								type="radio"
+								value="option4"
+								checked={selectedOption2 === "option4"}
+								onChange={handleRadioChange2}
+							/>
+							<h6>
+								<span className="inner-img2">
+									<img
+										src="../../public/Non-veg.svg"
+										alt=""
+									/>{" "}
+									Non
+								</span>
+								Veg
+							</h6>
+						</label>
+					</div>
+
+					{/* Slider 2 */}
+					<div className="form-head">
+						<img src="../../public/Calorie.svg" alt="" />
+					</div>
+					<div className="bdr">
+						<label>
+							<h6>{sliderValue2}</h6>
+						</label>
+						<br />
 						<input
-							type="radio"
-							value="option2"
-							checked={selectedOption1 === "option2"}
-							onChange={handleRadioChange1}
+							type="range"
+							min="1500"
+							max="5000"
+							value={sliderValue2}
+							onChange={handleSliderChange2}
 						/>
-						<h6>
-							<img src="../../public/Female.svg" alt="" /> Female
-						</h6>
-					</label>
-				</div>
+					</div>
 
-				{/* Slider 1 */}
-				<div className="form-head">
-					<img src="../../public/SpicyMeter.svg" alt="" />
-				</div>
-				<div className="bdr">
-					<label>
-						<h6>{sliderValue1}</h6>
-					</label>
-					<br />
-					<input
-						type="range"
-						min="0"
-						max="5"
-						value={sliderValue1}
-						onChange={handleSliderChange1}
-					/>
-				</div>
-
-				{/* Radio Buttons 2 */}
-				<div className="form-head">
-					<img src="../../public/Food.svg" alt="" />
-				</div>
-				<div className="veg-non bdr">
-					<label>
-						<input
-							type="radio"
-							value="option3"
-							checked={selectedOption2 === "option3"}
-							onChange={handleRadioChange2}
-						/>
-						<h6>
-							<img src="../../public/veg.svg" alt="" /> Veg
-						</h6>
-					</label>
-					<label>
-						<input
-							type="radio"
-							value="option4"
-							checked={selectedOption2 === "option4"}
-							onChange={handleRadioChange2}
-						/>
-						<h6>
-							<img src="../../public/Non-veg.svg" alt="" /> Non
-							Veg
-						</h6>
-					</label>
-				</div>
-
-				{/* Slider 2 */}
-				<div className="form-head">
-					<img src="../../public/Calorie.svg" alt="" />
-				</div>
-				<div className="bdr">
-					<label>
-						<h6>{sliderValue2}</h6>
-					</label>
-					<br />
-					<input
-						type="range"
-						min="1500"
-						max="5000"
-						value={sliderValue2}
-						onChange={handleSliderChange2}
-					/>
-				</div>
-
-				{/* Dropdown Menu */}
-				{/* <div className="form-head">Caste:</div>
+					{/* Dropdown Menu */}
+					{/* <div className="form-head">Caste:</div>
 
 				<div className="bdr">
 					<label>
@@ -420,56 +434,60 @@ const FoodForm = () => {
 					</label>
 				</div> */}
 
-				{/* Checkboxes 1 */}
+					{/* Checkboxes 1 */}
 
-				{/* Button 1 with Checkboxes */}
-				<div className="form-head">
-					<img src="../../public/TimeSlots.svg" alt="" srcset="" />
-				</div>
-				<div className="drop-btn bdr">
-					<div>
-						<button
-							type="button"
-							className="custbtn"
-							onClick={() => handleButtonClick("button1")}
-						>
-							Breakfast & Lunch
-						</button>
-						{selectedButton === "button1" && renderCheckboxes()}
+					{/* Button 1 with Checkboxes */}
+					<div className="form-head">
+						<img
+							src="../../public/TimeSlots.svg"
+							alt=""
+							srcset=""
+						/>
 					</div>
+					<div className="drop-btn bdr">
+						<div>
+							<button
+								type="button"
+								className="custbtn"
+								onClick={() => handleButtonClick("button1")}
+							>
+								Breakfast & Lunch
+							</button>
+							{selectedButton === "button1" && renderCheckboxes()}
+						</div>
 
-					{/* Button 2 with Checkboxes */}
-					<div>
-						<button
-							type="button"
-							className="custbtn"
-							onClick={() => handleButtonClick("button2")}
-						>
-							Breakfast, Lunch & Dinner
-						</button>
-						{selectedButton === "button2" && renderCheckboxes()}
-					</div>
+						{/* Button 2 with Checkboxes */}
+						<div>
+							<button
+								type="button"
+								className="custbtn"
+								onClick={() => handleButtonClick("button2")}
+							>
+								Breakfast, Lunch & Dinner
+							</button>
+							{selectedButton === "button2" && renderCheckboxes()}
+						</div>
 
-					{/* Button 3 with Checkboxes */}
-					<div>
-						<button
-							type="button"
-							className="custbtn"
-							onClick={() => handleButtonClick("button3")}
-						>
-							Breakfast & Dinner
-						</button>
-						{selectedButton === "button3" && renderCheckboxes()}
+						{/* Button 3 with Checkboxes */}
+						<div>
+							<button
+								type="button"
+								className="custbtn"
+								onClick={() => handleButtonClick("button3")}
+							>
+								Breakfast & Dinner
+							</button>
+							{selectedButton === "button3" && renderCheckboxes()}
+						</div>
 					</div>
-				</div>
-				{/* Buttons */}
-				<div className="sub-res">
-					<button type="submit" className="loginbtn">
-						Submit
-					</button>
-				
-				</div>
-			</form>
+					{/* Buttons */}
+					<div className="sub-res">
+						<button type="submit" className="loginbtn">
+							Submit
+						</button>
+					</div>
+				</form>
+			</div>
 		</div>
 	);
 };

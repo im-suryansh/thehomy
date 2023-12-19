@@ -53,7 +53,7 @@ const Services = () => {
 					</div>
 				</div>
 				<Link to="/cook" style={{ textDecorationLine: "none" }}>
-					<div className="loginbtn servicebtn">Book Now</div>
+					<div className="secbutton servicebtn">Book Now</div>
 				</Link>
 				<div className="services-inner-box-2">
 					<img src="../../public/temp2.png" alt="" />
@@ -98,7 +98,7 @@ const Services = () => {
 					</div>
 				</div>
 				<Link to="/Caretaker" style={{ textDecorationLine: "none" }}>
-					<div className="loginbtn servicebtn">Book Now</div>
+					<div className="secbutton servicebtn">Book Now</div>
 				</Link>
 
 				<div className="services-inner-box-1">
@@ -135,7 +135,7 @@ const Services = () => {
 					</div>
 				</div>
 				<Link to="/cook" style={{ textDecorationLine: "none" }}>
-					<div className="loginbtn servicebtn">Book Now</div>
+					<div className="secbutton servicebtn">Book Now</div>
 				</Link>
 
 				<div className="services-inner-box-2">
@@ -182,7 +182,7 @@ const Services = () => {
 					</div>
 				</div>
 				<Link to="/Dustguard" style={{ textDecorationLine: "none" }}>
-					<div className="loginbtn servicebtn">Book Now</div>
+					<div className="secbutton servicebtn">Book Now</div>
 				</Link>
 			</div>
 		</div>

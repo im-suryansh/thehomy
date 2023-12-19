@@ -11,7 +11,7 @@ const Dustguard = () => {
 					<h1>Dust Guards</h1>
 					<h2>Cleaners</h2>
 					<Link to="/payment"  style={{ textDecorationLine: "none" }}> 
-                    <div className="loginbtn ">
+                    <div className="secbutton ">
 						Get Started
 						<MdArrowOutward />
 					</div>
