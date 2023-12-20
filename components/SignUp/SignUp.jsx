@@ -7,14 +7,13 @@ function Login() {
 	return (
 		<div className="spage">
 			<form className="sform">
-                <h1>Sign Up</h1>
+				<h1>Sign Up</h1>
 				<div className="flex-column">
-                    
 					<label>Name </label>
 				</div>
 				<div className="sinputForm">
 					<h6>
-                    <IoMdPerson />
+						<IoMdPerson />
 					</h6>
 					<input
 						type="text"
@@ -23,7 +22,6 @@ function Login() {
 					/>
 				</div>
 				<div className="flex-column">
-                    
 					<label>Email </label>
 				</div>
 				<div className="sinputForm">
@@ -64,10 +62,8 @@ function Login() {
 						placeholder="Confirm your Password"
 					/>
 				</div>
-					<button className="button-submit">Continue to Home</button>
-
+				<button className="button-submit">Continue to Home</button>
 			</form>
-
 		</div>
 	);
 }

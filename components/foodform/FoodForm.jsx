@@ -353,7 +353,7 @@ const FoodForm = () => {
 						<input
 							type="range"
 							min="0"
-							max="5"
+							max="3"
 							value={sliderValue1}
 							onChange={handleSliderChange1}
 						/>
