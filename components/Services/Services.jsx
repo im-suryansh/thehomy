@@ -20,34 +20,34 @@ const Services = () => {
 						</span>
 						<ul>
 							<li>
-								<span className="li-style">-</span>Weekly Meal
+								<span className="li-style"></span>Weekly Meal
 								Planning
 							</li>
 							<li>
-								<span className="li-style">-</span>Daily Meal
+								<span className="li-style"></span>Daily Meal
 								Planning
 							</li>
 							<li>
-								<span className="li-style">-</span>Trained cooks
+								<span className="li-style"></span>Trained cooks
 							</li>
 							<li>
-								<span className="li-style">-</span>Trained cooks
+								<span className="li-style"></span>Trained cooks
 							</li>
 							<li>
-								<span className="li-style">-</span>Set Your
+								<span className="li-style"></span>Set Your
 								Spicy meter
 							</li>
 							<li>
-								<span className="li-style">-</span>Set Your
+								<span className="li-style"></span>Set Your
 								calorie meter
 							</li>
 							<li>
-								<span className="li-style">-</span>Daily
+								<span className="li-style"></span>Daily
 								customer feedback
 							</li>
 
 							<li>
-								<span className="li-style">-</span>Kitchen kit.
+								<span className="li-style"></span>Kitchen kit.
 							</li>
 						</ul>
 					</div>
@@ -73,26 +73,26 @@ const Services = () => {
 						</span>
 						<ul>
 							<li>
-								<span className="li-style">-</span>Police
+								<span className="li-style"></span>Police
 								verified
 							</li>
 							<li>
-								<span className="li-style">-</span>Caring
+								<span className="li-style"></span>Caring
 							</li>
 							<li>
-								<span className="li-style">-</span>Trustworthy
+								<span className="li-style"></span>Trustworthy
 							</li>
 							<li>
-								<span className="li-style">-</span>Caring
+								<span className="li-style"></span>Caring
 							</li>
 
 							<li>
-								<span className="li-style">-</span>Educated
+								<span className="li-style"></span>Educated
 								Babysitters
 							</li>
 
 							<li>
-								<span className="li-style">-</span>Nursing kit
+								<span className="li-style"></span>Nursing kit
 							</li>
 						</ul>
 					</div>
@@ -115,20 +115,20 @@ const Services = () => {
 						</span>
 						<ul>
 							<li>
-								<span className="li-style">-</span>Police
+								<span className="li-style"></span>Police
 								verified
 							</li>
 							<li>
-								<span className="li-style">-</span>Hygiene
+								<span className="li-style"></span>Hygiene
 								checked
 							</li>
 
 							<li>
-								<span className="li-style">-</span>Trained staff
+								<span className="li-style"></span>Trained staff
 							</li>
 
 							<li>
-								<span className="li-style">-</span>Toilet
+								<span className="li-style"></span>Toilet
 								cleaner kit
 							</li>
 						</ul>
@@ -153,28 +153,28 @@ const Services = () => {
 						</span>
 						<ul>
 							<li>
-								<span className="li-style">-</span>Trained staff
+								<span className="li-style"></span>Trained staff
 							</li>
 							<li>
-								<span className="li-style">-</span>Our cleaners
+								<span className="li-style"></span>Our cleaners
 								Prioritize your satisfaction
 							</li>
 							<li>
-								<span className="li-style">-</span>Equipped with
+								<span className="li-style"></span>Equipped with
 								experience and ongoing training
 							</li>
 							<li>
-								<span className="li-style">-</span>Adaptable to
+								<span className="li-style"></span>Adaptable to
 								your needs
 							</li>
 
 							<li>
-								<span className="li-style">-</span>Our cleaners
+								<span className="li-style"></span>Our cleaners
 								maintain a professional demeanor
 							</li>
 
 							<li>
-								<span className="li-style">-</span>They work
+								<span className="li-style"></span>They work
 								efficiently to provide quality service within a
 								reasonable timeframe
 							</li>

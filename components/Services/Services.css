@@ -1,11 +1,15 @@
+@font-face {
+	font-family:Head;
+	src: url(../../public/font1/JosefinSans-Regular.ttf);
+  }
 .services-main-box {
 	/* margin: 2vw; */
 	height: auto;
 }
+
 .services-inner-box-1 {
 	margin: 2vw;
-    margin-top:20vh ;
-
+    margin-top:10vh ;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -18,7 +22,7 @@
 	justify-content: space-around;
 	align-items: center;
 }
-.services-inner-box-1 img {
+.services-inner-box-1 img{
 	width: 40vw;
 	margin-right: 40px;
 }
@@ -48,6 +52,7 @@
 	font-size: 26px;
 }
 .servicebtn {
+
 	position: absolute;
 	/* margin-bottom: 50px; */
 	right: 40px;

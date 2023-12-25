@@ -20,6 +20,7 @@ import CookPage from "../components/CookPage";
 import CaretakerPage from "../components/CaretakerPage/CaretakerPage";
 import Payment from "../components/Payment";
 import Dustguard from "../components/DustGuard";
+import Calendar from "../components/Calendar/Calendar";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -38,6 +39,7 @@ function App() {
 								{<CenterMode />}
 								{<FeatureBanner />}
 								{<FB />}
+								<Calendar />
 								{<Support />}
 								{<Footer />}
 							</>
@@ -123,12 +125,10 @@ function App() {
 							</>
 						}
 					/>
-
 					<Route
 						path="/payment"
 						element={
 							<>
-								
 								{<Navbar />}
 								<Payment />
 								<Footer />
