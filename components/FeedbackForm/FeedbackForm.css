@@ -10,7 +10,7 @@
   
   .ff-card {
     position: relative;
-    width: 150px;
+    width: 200px;
     height: 100px;
     background: #fff;
     border-radius: 10px;
@@ -37,6 +37,7 @@
   }
   
   .ff-input + .ff-check::before {
+    /* display: none; */
     content: "";
     position: absolute;
     top: 15px;
@@ -49,6 +50,7 @@
   }
   
   .ff-input:checked + .ff-check::after {
+    /* display: none; */
     content: '';
     position: absolute;
     top: 16.99px;
@@ -64,7 +66,7 @@
   }
   
   .ff-input[value="premium"]:checked + .ff-check::after {
-    background-color: rgba(0, 128, 0, 0.7);
+    background-color:  rgba(128, 1, 255, 0.7);
   }
   
   .ff-input[value="basic"]:checked {
@@ -76,7 +78,7 @@
   }
   
   .ff-input[value="premium"]:checked {
-    border: 1.5px solid rgba(0, 128, 0, 0.7);
+    border: 1.5px solid rgba(128, 1, 255, 0.7);
   }
   
   .ff-label {
@@ -116,11 +118,11 @@
 
 
 
-  .cform {
+  .pform {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 400px;
+    max-width: 500px;
     /* background-color: #e8e8e8; */
     padding: 20px;
     /* border-radius: 20px; */
@@ -183,11 +185,11 @@
     gap: 6px;
   }
   
-  .cform label {
+  .pform label {
     position: relative;
   }
   
-  .cform label .input {
+  .pform label .input {
     width: 100%;
     padding: 20px 10px 20px 10px;    
     outline: 0;
@@ -195,7 +197,7 @@
     border-radius: 10px;
   }
   
-  .cform label .input + span {
+  .pform label .input + span {
     position: absolute;
     /* left: 20px; */
     /* top: 15px; */
@@ -205,18 +207,18 @@
     transition: 0.3s ease;
   }
   
-  .cform label .input:placeholder-shown + span {
+  .pform label .input:placeholder-shown + span {
     top: 15px;
     font-size: 0.9em;
   }
   
-  .cform label .input:focus + span,.cform label .input:valid + span {
+  .pform label .input:focus + span,.pform label .input:valid + span {
     top: 30px;
     font-size: 0.7em;
     font-weight: 600;
   }
   
-  .cform label .input:valid + span {
+  .pform label .input:valid + span {
     color: grey;
   }
 

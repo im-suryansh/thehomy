@@ -6,7 +6,7 @@ const FeedbackForm = () => {
 	return (
 		<div className="feedback-form">
 			<div className="cmain">
-				<form className="cform">
+				<form className="pform">
 					<p className="title">Feedback Form</p>
 
 					<div className="flex">
@@ -47,10 +47,10 @@ const FeedbackForm = () => {
 								/>
 								<span className="ff-check"></span>
 								<label className="ff-label">
-									<div className="ff-title">BASIC</div>
+									<div className="ff-title">HOMY</div>
 									<div className="ff-price">
-										<span className="ff-span">$</span>
-										15
+										<span className="ff-span">₹</span>
+                                        499
 										<span className="ff-span">/month</span>
 									</div>
 								</label>
@@ -64,10 +64,10 @@ const FeedbackForm = () => {
 								/>
 								<span className="ff-check"></span>
 								<label className="ff-label">
-									<div className="ff-title">STANDARD</div>
+									<div className="ff-title">HOMY PRO</div>
 									<div className="ff-price">
-										<span className="ff-span">$</span>
-										30
+										<span className="ff-span">₹</span>
+										4999
 										<span className="ff-span">/month</span>
 									</div>
 								</label>
@@ -81,10 +81,10 @@ const FeedbackForm = () => {
 								/>
 								<span className="ff-check"></span>
 								<label className="ff-label">
-									<div className="ff-title">PREMIUM</div>
+									<div className="ff-title">HOMY PRO MAX</div>
 									<div className="ff-price">
-										<span className="ff-span">$</span>
-										60
+										<span className="ff-span">₹</span>
+									14999	
 										<span className="ff-span">/month</span>
 									</div>
 								</label>

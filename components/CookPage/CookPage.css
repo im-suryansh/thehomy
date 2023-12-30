@@ -65,9 +65,11 @@
    
    /*Hover*/
    .ccard:hover {
+    cursor: pointer;
     border-color: #e23744;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
    }
+
    
    .ccard:hover .card-button {
     transform: translate(-50%, 50%);

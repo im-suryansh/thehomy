@@ -4,6 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const CookPage = () => {
+		// const [isClicked, setIsClicked] = useState(false);
 	return (
 		<>
 			<div className="CookPage-container">
@@ -36,11 +37,11 @@ const CookPage = () => {
 									Here are the details of the card
 								</p>
 							</div>
-							<button class="ccard-button">More info</button>
+							<button class="ccard-button" >More info</button>
 						</div>
 					</div>
 					<Link
-						to="/cook/customize"
+						to="/FeebackForm"
 						style={{ textDecorationLine: "none" }}
 					>
 						<div className="secbutton cookbtn">

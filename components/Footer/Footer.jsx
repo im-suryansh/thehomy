@@ -88,15 +88,11 @@ export default function App() {
 
 								<ul className="list-unstyled mb-0">
 									<li>
-										<a href="#!" className="text-footer">
+										<a href="./cook" className="text-footer">
 											Cooks
 										</a>
 									</li>
-									<li>
-										<a href="#!" className="text-footer">
-											House Cleaners
-										</a>
-									</li>
+									
 									<li>
 										<a href="#!" className="text-footer">
 											Toilet Cleaners
@@ -107,11 +103,7 @@ export default function App() {
 											Baby Sitters
 										</a>
 									</li>
-									<li>
-										<a href="#!" className="text-footer">
-											Caretaker
-										</a>
-									</li>
+								
 								</ul>
 							</MDBCol>
 
