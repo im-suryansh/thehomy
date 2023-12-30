@@ -2,8 +2,10 @@ import React from "react";
 import "./SignUp.css";
 import { IoMdPerson } from "react-icons/io";
 import { MdLock } from "react-icons/md";
+import { Link } from "react-router-dom";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 function Login() {
+	
 	return (
 		<div className="spage">
 			<form className="sform">
@@ -62,8 +64,16 @@ function Login() {
 						placeholder="Confirm your Password"
 					/>
 				</div>
+				
 				<button className="button-submit">Continue to Home</button>
+				<h6>
+					Existing user?
+					<Link to="/login"
+					style={{ color: "red", textDecorationLine: "none" }}
+					>   Login</Link>
+				</h6>
 			</form>
+			
 		</div>
 	);
 }

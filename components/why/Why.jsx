@@ -1,29 +1,40 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Banner/Banner.css";
 import { IoIosTimer } from "react-icons/io";
 import { LiaUsersSolid } from "react-icons/lia";
 import { BiSupport } from "react-icons/bi";
 import { GiHotMeal } from "react-icons/gi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // import { Typewriter } from 'react-simple-typewriter'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import './Why.css'
+import "./Why.css";
+
 const Why = () => {
 	const [text2] = useTypewriter({
 		words: ["Thehomy!"],
 		loop: {},
 	});
 	return (
-		<div className="container-fluid feature-section pt-md-5 ">
+		<div
+			className="container-fluid feature-section pt-md-5 "
+		>
 			<div className="row p-md-5">
 				<div
 					className="col-md-6 d-flex justify-content-center align-items-center flex-column"
 					data-aos="fade-up"
 					data-aos-easing="linear"
-					data-aos-duration="1500"
+					data-aos-duration="1000"
 				>
 					<span className="why-head">
 						Experience The Luxury with{" "}
-						<span style={{ color: "#c45254", fontWeight: "600", fontSize:'36px' }}>
+						<span
+							style={{
+								color: "#c45254",
+								fontWeight: "600",
+								fontSize: "36px",
+							}}
+						>
 							Thehomy.
 						</span>{" "}
 					</span>
@@ -38,7 +49,14 @@ const Why = () => {
 						Benefit from flexible durations, transparent pricing,
 						and the convenience of personalized meal planning,
 						ensuring each dish suits your taste. */}
-						"Elevate your home care experience with The Homy! Our exceptional features include personalized services by pure vegetarian maids chosen to align with your values. Customize your care through our user-friendly app, selecting caretakers and scheduling effortlessly. Enjoy flexibility, transparent pricing, and personalized meal planning for a truly tailored touch to your home care journey."
+						"Elevate your home care experience with The Homy! Our
+						exceptional features include personalized services by
+						pure vegetarian maids chosen to align with your values.
+						Customize your care through our user-friendly app,
+						selecting caretakers and scheduling effortlessly. Enjoy
+						flexibility, transparent pricing, and personalized meal
+						planning for a truly tailored touch to your home care
+						journey."
 					</span>
 				</div>
 				<div

@@ -1,17 +1,17 @@
 import React from "react";
+import "./Dashboard.css";
+import Calendar from "../Calendar/Calendar";
 
 const Dashboard = () => {
 	return (
 		<div>
 			<div className="detail">
-				<div className="pfp">
-					<img src="https://i.imgur.com/8Km9tLL.png" alt="profile" />
-				</div>
-				<div className="info">
-					<span className="Dashboard-name">John Doe</span>
-					<span className="Dashboard-info">9999999999</span>
-					<span className="Dashboard-info">randommail@gmail.com</span>
-					<span className="Dashboard-info">address</span>
+				<div className="Dashboard-card">
+					<div className="card-border-top"></div>
+					<div className="Dashboard-img"></div>
+					<span> Person</span>
+					<p className="job"> Job Title</p>
+					<button> Click</button>
 				</div>
 			</div>
 			<div className="Dashboard-container">
@@ -25,9 +25,10 @@ const Dashboard = () => {
 						<div className="Dashboard-card"></div>
 						<div className="Dashboard-card"></div>
 					</div>
-                    <div className="calender"></div>
+					<div className="calender">
+						<Calendar />
+					</div>
 				</div>
-
 			</div>
 		</div>
 	);

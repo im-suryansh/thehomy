@@ -3,16 +3,18 @@
 	src: url(../../public/font1/JosefinSans-Regular.ttf);
   }
 .services-main-box {
-	/* margin: 2vw; */
 	height: auto;
 }
 
 .services-inner-box-1 {
 	margin: 2vw;
-    margin-top:10vh ;
+    margin-top:20vh ;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+.services-inner-box-1 :nth-of-type(1){
+	margin-top: 0;
 }
 .services-inner-box-2 {
 	margin: 2vw;
@@ -35,15 +37,16 @@
 	font-weight: 600;
 	margin: 2vw;
 }
+
 .services-main-box h2 {
 	/* text-align: center; */
-	font-size: 2.2vw;
+	/* font-size: 2.2vw; */
 	font-weight: 600;
 	/* margin: 1vw; */
 }
 .li-style {
 	margin: 20px;
-	font-size: 24px;
+	font-size: 32px;
 	list-style: none;
 	list-style-type: none;
 }

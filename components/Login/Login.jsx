@@ -5,6 +5,7 @@ import { MdLock } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { IoMdPerson } from "react-icons/io";
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import { BsAlignEnd } from "react-icons/bs";
 function Login() {
 	return (
 		<div className="spage">
@@ -15,7 +16,7 @@ function Login() {
 				</div>
 				<div className="sinputForm">
 					<h6>
-					<GiIndiaGate />	
+						<GiIndiaGate />
 					</h6>
 					<input
 						type="text"
@@ -51,12 +52,18 @@ function Login() {
 						placeholder="Enter your Password"
 					/>
 				</div>
-				
+
 				<span className="login-text">OR</span>
 				<div type="button" className="login-with-google-btn">
 					Sign in with Google
 				</div>
 				<button className="button-submit">Login</button>
+				<h6>
+					Not a user?
+					<Link to="/signup"
+					style={{ color: "red", textDecorationLine: "none" }}
+					>   Sign up</Link>
+				</h6>
 			</form>
 		</div>
 	);

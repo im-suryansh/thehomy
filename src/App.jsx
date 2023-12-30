@@ -20,7 +20,9 @@ import CookPage from "../components/CookPage";
 import CaretakerPage from "../components/CaretakerPage/CaretakerPage";
 import Payment from "../components/Payment";
 import Dustguard from "../components/DustGuard";
-import Calendar from "../components/Calendar/Calendar";
+
+import Dashboard from "../components/Dashboard/Dashboard";
+import FeebackForm from "../components/FeedbackForm";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -39,7 +41,6 @@ function App() {
 								{<CenterMode />}
 								{<FeatureBanner />}
 								{<FB />}
-								<Calendar />
 								{<Support />}
 								{<Footer />}
 							</>
@@ -104,12 +105,12 @@ function App() {
 						}
 					/>
 					<Route
-						path="/cook/customize"
+						path="/FeebackForm"
 						element={
 							<>
 								{<Support />}
 								{<Navbar />}
-								<FoodForm />
+								<FeebackForm/>
 								<Footer />
 							</>
 						}
@@ -130,7 +131,7 @@ function App() {
 						element={
 							<>
 								{<Navbar />}
-								<Payment />
+								<FeebackForm/>
 								<Footer />
 							</>
 						}

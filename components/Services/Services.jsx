@@ -55,7 +55,7 @@ const Services = () => {
 				<Link to="/cook" style={{ textDecorationLine: "none" }}>
 					<div className="secbutton servicebtn">Book Now</div>
 				</Link>
-				<div className="services-inner-box-2">
+				{/* <div className="services-inner-box-2">
 					<img src="../../public/temp2.png" alt="" />
 					<div>
 						<h1>Nursing Nanny</h1>
@@ -96,7 +96,7 @@ const Services = () => {
 							</li>
 						</ul>
 					</div>
-				</div>
+				</div> */}
 				<Link to="/Caretaker" style={{ textDecorationLine: "none" }}>
 					<div className="secbutton servicebtn">Book Now</div>
 				</Link>
@@ -138,7 +138,7 @@ const Services = () => {
 					<div className="secbutton servicebtn">Book Now</div>
 				</Link>
 
-				<div className="services-inner-box-2">
+				<div className="services-inner-box-1">
 					<img src="../../public/temp4.png" alt="" />
 					<div>
 						<h1>Dust Guards</h1>
