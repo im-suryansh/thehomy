@@ -1,6 +1,9 @@
 import React from "react";
 import "./Services.css";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import { MdArrowOutward } from "react-icons/md";
+
 
 const Services = () => {
 	return (
@@ -18,7 +21,10 @@ const Services = () => {
 							dish, ensuring your meals are crafted with love and
 							exceptional taste.
 						</span>
-						<ul>
+						<ul 
+							data-aos="fade-left"
+							data-aos-easing="linear"
+							data-aos-duration="400">
 							<li>
 								<span className="li-style"></span>Weekly Meal
 								Planning
@@ -53,7 +59,7 @@ const Services = () => {
 					</div>
 				</div>
 				<Link to="/cook" style={{ textDecorationLine: "none" }}>
-					<div className="secbutton servicebtn">Book Now</div>
+					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
 				</Link>
 				{/* <div className="services-inner-box-2">
 					<img src="../../public/temp2.png" alt="" />
@@ -97,9 +103,9 @@ const Services = () => {
 						</ul>
 					</div>
 				</div> */}
-				<Link to="/Caretaker" style={{ textDecorationLine: "none" }}>
-					<div className="secbutton servicebtn">Book Now</div>
-				</Link>
+				{/* <Link to="/Caretaker" style={{ textDecorationLine: "none" }}>
+					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
+				</Link> */}
 
 				<div className="services-inner-box-1">
 					<img src="../../public/temp3.png" alt="" />
@@ -113,7 +119,10 @@ const Services = () => {
 							police, carry their own kits, and ensure a spotless
 							and safe bathroom for you.
 						</span>
-						<ul>
+						<ul
+							data-aos="fade-left"
+							data-aos-easing="linear"
+							data-aos-duration="400">
 							<li>
 								<span className="li-style"></span>Police
 								verified
@@ -135,7 +144,7 @@ const Services = () => {
 					</div>
 				</div>
 				<Link to="/cook" style={{ textDecorationLine: "none" }}>
-					<div className="secbutton servicebtn">Book Now</div>
+					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
 				</Link>
 
 				<div className="services-inner-box-1">
@@ -151,7 +160,10 @@ const Services = () => {
 							cleaning services – you're getting peace of mind,
 							knowing your home is in safe and reliable hands.
 						</span>
-						<ul>
+						<ul
+							data-aos="fade-left"
+							data-aos-easing="linear"
+							data-aos-duration="400">
 							<li>
 								<span className="li-style"></span>Trained staff
 							</li>
@@ -182,7 +194,7 @@ const Services = () => {
 					</div>
 				</div>
 				<Link to="/Dustguard" style={{ textDecorationLine: "none" }}>
-					<div className="secbutton servicebtn">Book Now</div>
+					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
 				</Link>
 			</div>
 		</div>
