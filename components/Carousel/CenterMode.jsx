@@ -5,18 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 
-
-// function SampleNextArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={className}
-//       style={{ ...style, display: "block", color: "orange", background: "black" }}
-//       onClick={onClick}
-//     />
-//   );
-// }
-
 function SamplePrevArrow(props) {
 	const { className, style, onClick } = props;
 	return (
