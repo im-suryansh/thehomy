@@ -4,15 +4,12 @@ import "./FB.css";
 import { useTypewriter } from "react-simple-typewriter";
 
 const FB = () => {
-	const [text1] = useTypewriter({
-		words: ["Perfection"],
-		loop: {},
-	});
+	
 	return (
 		<div>
 			<div className="container">
 				<div className="text ">
-					<h1>Personalised to {text1}</h1>
+					<h1>Personalised to Perfection</h1>
 				</div>
 				<div className="fimage">
 					<div>

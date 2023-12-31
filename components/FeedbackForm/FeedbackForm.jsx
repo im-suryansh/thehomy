@@ -6,14 +6,14 @@ const FeedbackForm = () => {
 	return (
 		<div className="feedback-form">
 			<div className="cmain">
-				<form className="pform">
-					<p className="title">Feedback Form</p>
+				<form className="cform">
+					<p className="title">Enquiry Form</p>
 
 					<div className="flex">
 						<label>
 							<input
 								required=""
-								placeholder="Firstname"
+								placeholder="First name"
 								type="text"
 								className="input"
 							/>
@@ -22,7 +22,7 @@ const FeedbackForm = () => {
 						<label>
 							<input
 								required=""
-								placeholder="Lastname"
+								placeholder="Last name"
 								type="text"
 								className="input"
 							/>
@@ -32,10 +32,28 @@ const FeedbackForm = () => {
 					<label>
 						<input
 							required=""
-							placeholder="Contact Info"
-							type="contact"
+							placeholder="Phone Number"
+							type="tel"
 							className="input"
 						/>
+					</label>
+					<label>
+						<input
+							required=""
+							placeholder="Email"
+							type="email"
+							className="input"
+						/>
+					</label>
+					<label>
+						<input
+							required=""
+							placeholder="Address"
+							type="text"
+							className="input"
+						/>
+					</label>
+
 
 						<div className="ff-wrapper">
 							<div className="ff-card">
@@ -90,7 +108,6 @@ const FeedbackForm = () => {
 								</label>
 							</div>
 						</div>
-					</label>
 					<textarea
 						className="form-control"
 						name="message"

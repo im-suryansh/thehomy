@@ -42,11 +42,11 @@ export default class CenterMode extends Component {
 			className: "center",
 			centerMode: true,
 			infinite: true,
-			centerPadding: "30px",
+			centerPadding: "10px",
 			slidesToShow: 3,
-			speed: 1000,
+			speed: 500,
 			autoplay: true,
-			autoplaySpeed: 2000,
+			autoplaySpeed: 2500,
 			responsive: [
 				{
 					breakpoint: 1024,
@@ -68,8 +68,8 @@ export default class CenterMode extends Component {
 				{
 					breakpoint: 480,
 					settings: {
-						slidesToShow: 2,
-						slidesToScroll: 1,
+						slidesToShow: 1,
+						slidesToScroll: 2,
 					},
 				},
 			],
@@ -96,6 +96,16 @@ export default class CenterMode extends Component {
 				</h2>
 				<Slider {...settings}>
 					<div>
+						<img  src="../public/Dustguard.png" alt="" />
+					</div>
+					<div>
+						<img src="../public/hygiene.png" alt="" />
+					</div>
+					<div>
+						<img src="../public/KitchenKing.png" alt="" />
+					</div>
+					
+					<div>
 						<img src="../public/Dustguard.png" alt="" />
 					</div>
 					<div>
@@ -104,21 +114,7 @@ export default class CenterMode extends Component {
 					<div>
 						<img src="../public/KitchenKing.png" alt="" />
 					</div>
-					<div>
-						<img src="../public/NN.png" alt="" />
-					</div>
-					<div>
-						<img src="../public/Dustguard.png" alt="" />
-					</div>
-					<div>
-						<img src="../public/hygiene.png" alt="" />
-					</div>
-					<div>
-						<img src="../public/KitchenKing.png" alt="" />
-					</div>
-					<div>
-						<img src="../public/NN.png" alt="" />
-					</div>
+				
 				</Slider>
 			</div>
 		);

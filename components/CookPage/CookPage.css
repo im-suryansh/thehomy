@@ -18,7 +18,7 @@
 }
 .ccard {
     margin-right:10px ;
-    width: 190px;
+    width: 200px;
     height: 254px;
     border-radius: 20px;
     background: #f5f5f5;
@@ -59,7 +59,7 @@
    
    /*Text*/
    .ctext-title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
    }
    

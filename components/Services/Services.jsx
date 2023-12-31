@@ -3,28 +3,33 @@ import "./Services.css";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import { MdArrowOutward } from "react-icons/md";
-
+import { GiKnifeFork } from "react-icons/gi";
+import { PiToilet } from "react-icons/pi";
+import { PiBroom } from "react-icons/pi";
 
 const Services = () => {
 	return (
 		<div className="services-main-box">
 			<div className="services-box">
 				<h1>Our Services</h1>
-				<div className="services-inner-box-1">
+				<div className="services-inner-box-2">
 					<img src="../../public/temp1.jpg" alt="" />
 					<div>
 						<h1>Kitchen King</h1>
-						<h2>Chef</h2>
+						<h2>
+							<GiKnifeFork /> Chef
+						</h2>
 
 						<span className="service-text">
 							Our cooks at Thehomy pour dedication into every
 							dish, ensuring your meals are crafted with love and
 							exceptional taste.
 						</span>
-						<ul 
+						<ul
 							data-aos="fade-left"
 							data-aos-easing="linear"
-							data-aos-duration="400">
+							data-aos-duration="400"
+						>
 							<li>
 								<span className="li-style"></span>Weekly Meal
 								Planning
@@ -40,27 +45,30 @@ const Services = () => {
 								<span className="li-style"></span>Trained cooks
 							</li>
 							<li>
-								<span className="li-style"></span>Set Your
-								Spicy meter
+								<span className="li-style"></span>Set Your Spicy
+								meter
 							</li>
 							<li>
 								<span className="li-style"></span>Set Your
 								calorie meter
 							</li>
 							<li>
-								<span className="li-style"></span>Daily
-								customer feedback
+								<span className="li-style"></span>Daily customer
+								feedback
 							</li>
 
 							<li>
 								<span className="li-style"></span>Kitchen kit.
 							</li>
 						</ul>
+						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
+							<div className="secbutton servicebtn">
+								Book Now <MdArrowOutward />
+							</div>
+						</Link>
 					</div>
 				</div>
-				<Link to="/cook" style={{ textDecorationLine: "none" }}>
-					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
-				</Link>
+
 				{/* <div className="services-inner-box-2">
 					<img src="../../public/temp2.png" alt="" />
 					<div>
@@ -107,51 +115,11 @@ const Services = () => {
 					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
 				</Link> */}
 
-				<div className="services-inner-box-1">
-					<img src="../../public/temp3.png" alt="" />
-					<div>
-						<h1>Mr. Hygiene</h1>
-						<h2>Toilet Cleaner</h2>
-
-						<span className="service-text">
-							At Thehomy, our toilet cleaners are clean,
-							dedicated, and trusted. They're verified by the
-							police, carry their own kits, and ensure a spotless
-							and safe bathroom for you.
-						</span>
-						<ul
-							data-aos="fade-left"
-							data-aos-easing="linear"
-							data-aos-duration="400">
-							<li>
-								<span className="li-style"></span>Police
-								verified
-							</li>
-							<li>
-								<span className="li-style"></span>Hygiene
-								checked
-							</li>
-
-							<li>
-								<span className="li-style"></span>Trained staff
-							</li>
-
-							<li>
-								<span className="li-style"></span>Toilet
-								cleaner kit
-							</li>
-						</ul>
-					</div>
-				</div>
-				<Link to="/cook" style={{ textDecorationLine: "none" }}>
-					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
-				</Link>
-
-				<div className="services-inner-box-1">
+				<div className="services-inner-box-2">
 					<img src="../../public/temp4.png" alt="" />
 					<div>
 						<h1>Dust Guards</h1>
-						<h2>Cleaners</h2>
+						<h2><PiBroom/> Cleaners</h2>
 
 						<span className="service-text">
 							Our house cleaners at Thehomy are your secure
@@ -163,7 +131,8 @@ const Services = () => {
 						<ul
 							data-aos="fade-left"
 							data-aos-easing="linear"
-							data-aos-duration="400">
+							data-aos-duration="400"
+						>
 							<li>
 								<span className="li-style"></span>Trained staff
 							</li>
@@ -191,11 +160,53 @@ const Services = () => {
 								reasonable timeframe
 							</li>
 						</ul>
+						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
+							<div className="secbutton servicebtn">
+								Book Now <MdArrowOutward />
+							</div>
+						</Link>
 					</div>
 				</div>
-				<Link to="/Dustguard" style={{ textDecorationLine: "none" }}>
+				<div className="services-inner-box-2">
+					<img src="../../public/temp3.png" alt="" />
+					<div>
+						<h1>Mr. Hygiene</h1>
+						<h2> <PiToilet/> Toilet Cleaner</h2>
+
+						<span className="service-text">
+							At Thehomy, our toilet cleaners are clean,
+							dedicated, and trusted. They're verified by the
+							police, carry their own kits, and ensure a spotless
+							and safe bathroom for you.
+						</span>
+						<ul 
+							data-aos="fade-left"
+							data-aos-easing="linear"
+							data-aos-duration="400">
+							<li>
+								<span className="li-style"></span>Police
+								verified
+							</li>
+							<li>
+								<span className="li-style"></span>Hygiene
+								checked
+							</li>
+
+							<li>
+								<span className="li-style"></span>Trained staff
+							</li>
+
+							<li>
+								<span className="li-style"></span>Toilet
+								cleaner kit
+							</li>
+						</ul>
+						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
 					<div className="secbutton servicebtn">Book Now <MdArrowOutward/></div>
 				</Link>
+					</div>
+				
+				</div>
 			</div>
 		</div>
 	);

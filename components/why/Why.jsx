@@ -33,6 +33,7 @@ const Why = () => {
 								color: "#c45254",
 								fontWeight: "600",
 								fontSize: "36px",
+							
 							}}
 						>
 							Thehomy.

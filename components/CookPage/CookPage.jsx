@@ -14,7 +14,7 @@ const CookPage = () => {
 					<div className="cardbox">
 						<div className="ccard">
 							<div className="ccard-details">
-								<p className="ctext-title">Essential</p>
+								<p className="ctext-title">Homy</p>
 								<p className="ctext-body">
 									Here are the details of the card
 								</p>
@@ -23,7 +23,7 @@ const CookPage = () => {
 						</div>
 						<div className="ccard">
 							<div className="ccard-details">
-								<p className="ctext-title">Expert</p>
+								<p className="ctext-title">Homy Pro</p>
 								<p className="ctext-body">
 									Here are the details of the card
 								</p>
@@ -32,7 +32,7 @@ const CookPage = () => {
 						</div>
 						<div className="ccard">
 							<div className="ccard-details">
-								<p className="ctext-title">Celebrity</p>
+								<p className="ctext-title">Homy Pro Max</p>
 								<p className="ctext-body">
 									Here are the details of the card
 								</p>

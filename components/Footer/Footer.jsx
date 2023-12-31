@@ -88,18 +88,18 @@ export default function App() {
 
 								<ul className="list-unstyled mb-0">
 									<li>
-										<a href="./cook" className="text-footer">
+										<a href="./FeebackForm" className="text-footer">
 											Cooks
 										</a>
 									</li>
 									
 									<li>
-										<a href="#!" className="text-footer">
+										<a href="FeebackForm" className="text-footer">
 											Toilet Cleaners
 										</a>
 									</li>
 									<li>
-										<a href="#!" className="text-footer">
+										<a href="FeebackForm" className="text-footer">
 											Baby Sitters
 										</a>
 									</li>

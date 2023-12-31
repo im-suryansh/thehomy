@@ -38,8 +38,8 @@
 		font-size: 56px;
 	}
 	.fimage img {
-		margin: 30px;
-		width: 90vw;
+		/* margin: 30px; */
+		width: 25vw;
 		height: auto;
 	}
 }

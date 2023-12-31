@@ -56,6 +56,7 @@
 }
 
 @media (max-width: 600px) {
+
 	.caption-heading {
 		position: absolute;
 		bottom: 25vw;
@@ -71,7 +72,6 @@
 		font-weight: 400;
 	}
 }
-
 
 .custom-shape-divider-bottom-1698744223 {
 	position: absolute;
@@ -356,4 +356,3 @@ video {
 		font-size: 6vw;
 	}
 }
-

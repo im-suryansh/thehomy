@@ -10,7 +10,7 @@
 .first::before {
 	content: "About Us";
 	position: absolute;
-	top: 39%;
+	top: 69%;
 	left: 14%;
 	transform: translate(-50%, -50%);
 	color: #fff; /* Set the text color */
@@ -20,13 +20,23 @@
 
 	/* Other text styles can be added as needed */
 }
+.red {
+	color: #e23744;
+}
 .firstdata {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 60%;
+	/* width: 95%; */
 	margin: 50px 0 50px 0;
+}
+.middle-data {
+	margin: 50px 0 50px 0;
+	font-family: poppins;
+	font-size: 20px;
+	text-align: center;
+	margin: 100px 120px 100px 120px;
 }
 .firstdata h1 {
 	font-family: poppins;
@@ -38,12 +48,11 @@
 }
 .firstdata p {
 	font-family: poppins;
-	font-size: 16px;
-	margin-left: 80px;
+	font-size: 20px;
+	/* margin-left: 80px; */
 }
 
 .second {
-	
 	height: 50vh;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url("../../public/abouts.jpg");
@@ -54,14 +63,13 @@
 .second::before {
 	content: "Our Mission";
 	position: absolute;
-	top: 139%;
+	top: 162%;
 	left: 15%;
 	transform: translate(-50%, -50%);
 	color: #fff; /* Set the text color */
 	font-size: 48px; /* Set the font size */
 	font-family: poppins;
 	font-weight: 400;
-	/* Other text styles can be added as needed */
 }
 
 /* .second-container{
@@ -71,8 +79,7 @@
 	width: 100vw;
 } */
 .seconddata {
-
-	width: 60%;
+	/* width: 60%; */
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -85,12 +92,14 @@
 	font-size: 48px;
 	margin-left: 80px;
 	margin-right: 80px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .seconddata p {
 	font-family: poppins;
-	font-size: 16px;
+	font-size: 20px;
 	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 40px;
 }
 @media (max-width: 600px) {
 	.first {
@@ -108,26 +117,25 @@
 		margin-left: 10vw;
 		font-size: 24px;
 	}
-    .firstdata p{
-        margin-left: 10vw;
-    }
-    .second {
-        height: 30vh;
-    }
-	.second::before {
-        top: 130%;
-		left: 39%;
-
+	.firstdata p {
+		margin-left: 10vw;
 	}
-    .seconddata {
-        width: 90vw;
-        font-size: 20px;
-    }
-    .seconddata h1 {
-        margin-left: 10vw;
-        font-size: 24px;
-    }
-    .seconddata p{
-        margin-left: 10vw;
-    }
+	.second {
+		height: 30vh;
+	}
+	.second::before {
+		top: 130%;
+		left: 39%;
+	}
+	.seconddata {
+		width: 90vw;
+		font-size: 20px;
+	}
+	.seconddata h1 {
+		margin-left: 10vw;
+		font-size: 24px;
+	}
+	.seconddata p {
+		margin-left: 10vw;
+	}
 }
