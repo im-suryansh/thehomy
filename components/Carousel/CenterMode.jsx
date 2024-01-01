@@ -86,26 +86,54 @@ export default class CenterMode extends Component {
 				</h2>
 				<Slider {...settings}>
 					<div>
-					<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
-					<img  src="../public/Dustguard.png" alt="" />
-					</Link>
+						<Link
+							to="/FeebackForm"
+							style={{ textDecorationLine: "none" }}
+						>
+							<img src="../public/Dustguard.png" alt="" />
+						</Link>
 					</div>
-					<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}><div>
-						<img src="../public/hygiene.png" alt="" />
-					</div></Link>
-					<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>	<div>
-						<img src="../public/KitchenKing.png" alt="" />
-					</div></Link>
-					<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}><div>
-						<img src="../public/Dustguard.png" alt="" />
-					</div></Link>
-					<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}><div>
-						<img src="../public/hygiene.png" alt="" />
-					</div></Link>
-					<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}><div>
-						<img src="../public/KitchenKing.png" alt="" />
-					</div></Link>
-					
+					<Link
+						to="/FeebackForm"
+						style={{ textDecorationLine: "none" }}
+					>
+						<div>
+							<img src="../public/hygiene.png" alt="" />
+						</div>
+					</Link>
+					<Link
+						to="/FeebackForm"
+						style={{ textDecorationLine: "none" }}
+					>
+						{" "}
+						<div>
+							<img src="../public/KitchenKing.png" alt="" />
+						</div>
+					</Link>
+					<Link
+						to="/FeebackForm"
+						style={{ textDecorationLine: "none" }}
+					>
+						<div>
+							<img src="../public/Dustguard.png" alt="" />
+						</div>
+					</Link>
+					<Link
+						to="/FeebackForm"
+						style={{ textDecorationLine: "none" }}
+					>
+						<div>
+							<img src="../public/hygiene.png" alt="" />
+						</div>
+					</Link>
+					<Link
+						to="/FeebackForm"
+						style={{ textDecorationLine: "none" }}
+					>
+						<div>
+							<img src="../public/KitchenKing.png" alt="" />
+						</div>
+					</Link>
 				</Slider>
 			</div>
 		);
