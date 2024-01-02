@@ -73,7 +73,7 @@ const Pricing = () => {
   
         <div className="pcards__pcard pcard">
           <h2 className="pcard__heading">Expert</h2>
-          <p className="pcard__price">₹4,999 onwards</p>
+          <p className="pcard__price">₹1,999 onwards</p>
           <ul role="list" className="pcard__bullets flow">
             <li>Access to advanced workouts and nutrition plans</li>
             <li>Priority Email support</li>
@@ -84,7 +84,7 @@ const Pricing = () => {
   
         <div className="pcards__pcard pcard">
           <h2 className="pcard__heading">Celebrity</h2>
-          <p className="pcard__price">₹14,999 onwards</p>
+          <p className="pcard__price">₹4,999 onwards</p>
           <ul role="list" className="pcard__bullets flow">
             <li>Access to all premium workouts and nutrition plans</li>
             <li>24/7 Priority support</li>

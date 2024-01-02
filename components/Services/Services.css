@@ -51,6 +51,7 @@
 }
 
 .service-text {
+	padding: 10px;
 	font-weight: 450;
 	font-size: 24px;
 }
@@ -67,4 +68,34 @@ h4 img {
 }
 .services-inner-box-2 h1 {
 	color: #e23744;
+}
+
+
+@media (max-width:600px){
+	.services-box h1{
+		font-size: 42px;
+		margin:30px 0px 0px 0px;
+	}
+	.services-inner-box-2{
+		margin:0px 20px 100px 20px ;
+	}
+	.services-inner-box-2 img{
+		display: none;
+	}
+	.servicebtn{
+		position: absolute;
+		left: 25vw;
+	}
+	.services-inner-box-2 h1{
+		margin-bottom: 10px;
+	}
+	.services-inner-box-2 h2{
+		margin-bottom: 30px;
+	}
+	.service-text{ 
+		font-size: 15px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
 }

@@ -2,7 +2,6 @@ import React from "react";
 import "./Banner.css";
 import Carousel from 'react-bootstrap/Carousel';
 import video1 from "../../public/videos/video1.mp4";
-import video2 from "../../public/videos/video2.mp4";
 import video3 from "../../public/videos/video3.mp4";
 import video4 from "../../public/videos/video4.mp4";
 

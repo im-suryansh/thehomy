@@ -151,3 +151,12 @@
 	--lightness: 95%;
 	background: hsla(var(--hsl), 0.1);
 }
+.pcard__bullets li {
+	margin-bottom: 0.5em;
+	list-style: none;
+
+}
+ul.pcard__bullets {
+	margin-left: 0px;
+	padding-left: 0px;
+}

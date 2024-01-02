@@ -189,7 +189,7 @@
 .ham-input {
 	z-index: 1000;
 	position: absolute;
-	top: 0px;
+	top: 70px;
 	right: 0px;
 	display: flex;
 	flex-direction: column;
@@ -246,8 +246,8 @@
 
 .ham-input:hover > :not(.ham-value:hover) {
 	transition: 300ms;
-	filter: blur(1px);
-	transform: scale(0.95, 0.95);
+	
+	/* transform: scale(0.95, 0.95); */
 }
 @media (max-width: 600px) {
 	/* Your styles for medium screens go here */

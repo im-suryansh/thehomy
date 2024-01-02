@@ -142,7 +142,7 @@ const Services = () => {
 							</li>
 							<li>
 								<span className="li-style"></span>Equipped with
-								experience and ongoing training
+								experience and training
 							</li>
 							<li>
 								<span className="li-style"></span>Adaptable to
@@ -150,15 +150,10 @@ const Services = () => {
 							</li>
 
 							<li>
-								<span className="li-style"></span>Our cleaners
-								maintain a professional demeanor
+								<span className="li-style"></span>Maintain a professional demeanor
 							</li>
 
-							<li>
-								<span className="li-style"></span>They work
-								efficiently to provide quality service within a
-								reasonable timeframe
-							</li>
+						
 						</ul>
 						<Link to="/FeebackForm" style={{ textDecorationLine: "none" }}>
 							<div className="secbutton servicebtn">

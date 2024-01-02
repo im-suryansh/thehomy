@@ -1,7 +1,5 @@
 import React from "react";
 import "./AboutUs.css";
-import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();

@@ -205,3 +205,13 @@
     
     width: 200px;
   }
+
+  @media (max-width: 600px) {
+    .ff-wrapper {
+      flex-direction: column;
+      gap: 20px; align-items: center;
+    }
+    .box img{
+      display: none;
+    }
+  }

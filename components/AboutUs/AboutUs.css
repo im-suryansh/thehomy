@@ -102,40 +102,62 @@
 	margin-bottom: 40px;
 }
 @media (max-width: 600px) {
+	.firstdata {
+		text-align: center;
+		margin: 50px 0 50px 0;
+	}
 	.first {
 		height: 30vh;
 	}
 	.first::before {
-		top: 29%;
-		left: 34%;
+		top: 60%;
+		left: 36%;
 	}
 	.firstdata {
 		width: 90vw;
 		font-size: 20px;
 	}
 	.firstdata h1 {
-		margin-left: 10vw;
+		margin-left: 30vw;
 		font-size: 24px;
 	}
 	.firstdata p {
 		margin-left: 10vw;
+		text-align: center;
+		font-size: 16px;
+	}
+	.middle-data {
+		
+		margin: 30px 40px 30px 40px;
+	}
+
+	.middle-data p {
+		font-size: 16px;
+		padding: 0px;
+		margin: 0px;
 	}
 	.second {
+		align-items: center;
 		height: 30vh;
 	}
+
 	.second::before {
-		top: 130%;
+		top: 140%;
 		left: 39%;
 	}
-	.seconddata {
-		width: 90vw;
-		font-size: 20px;
-	}
+	
 	.seconddata h1 {
-		margin-left: 10vw;
+		margin-left: 20vw;
 		font-size: 24px;
 	}
+	.seconddata h3 {
+		margin-left: 5vw;
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
 	.seconddata p {
-		margin-left: 10vw;
+		margin: 0px 20px 20px 0px;
+		font-size: 12px;
+		margin-left: 5vw;
 	}
 }
