@@ -35,7 +35,7 @@ export default function App() {
 			<MDBFooter className="text-center" color="footer" bgColor="black">
 				<div className="footer-logo">
 					<Link to="/">
-						<img src=".././public/red-logo.png" alt="" srcset="" />
+						<img src="./logo.png" alt="" srcset="" />
 					</Link>
 					<div className="download">
 						<Link
@@ -65,21 +65,13 @@ export default function App() {
 											About us
 										</a>
 									</li>
-									<li>
-										<a href="#!" className="text-footer">
-											Homy's Blog
-										</a>
-									</li>
+								
 									<li>
 										<a href="#!" className="text-footer">
 											Register as a Homy
 										</a>
 									</li>
-									<li>
-										<a href="#!" className="text-footer">
-											Careers
-										</a>
-									</li>
+									
 								</ul>
 							</MDBCol>
 
@@ -113,7 +105,7 @@ export default function App() {
 								<ul className="list-unstyled mb-0">
 									<li>
 										<a href="#!" className="text-footer">
-											info@homy.co
+											info@thehomy.in
 										</a>
 									</li>
 								</ul>

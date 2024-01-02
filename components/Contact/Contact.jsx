@@ -49,18 +49,20 @@ function Contact() {
 					<span>Contact Info</span>
 				</label>
 				<label>
-					<input
-						required=""
-						placeholder=""
-						type="text"
+					<textarea
+						required
+						placeholder="Message"
+						type="Message"
 						className="input message"
+						rows="7"
+
 					/>
-					<span>Message</span>
+					
 				</label>
 				<button className="loginbtn submit">Submit</button>
 			</form>
 			<div className="box">
-				<img src="../../public/contactus.png" alt="" srcset="" />
+				<img src="./contactus.png" alt="" srcset="" />
 			</div>
 		</div>
 	);

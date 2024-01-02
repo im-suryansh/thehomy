@@ -162,34 +162,8 @@
     animation: pulse 1s linear infinite;
   }
   
-  .message, .signin {
-    color: rgba(88, 87, 87, 0.822);
-    font-size: 14px;
-  }
-  
-  .signin {
-    text-align: center;
-  }
-  
-  .signin a {
-    color: #e23744;
-  }
-  
-  .signin a:hover {
-    text-decoration: underline #e23744;
-  }
-  
-  .flex {
-    display: flex;
-    width: 460px;
-    justify-content: space-between;
-    /* gap: 10px; */
-  }
-  
-  .cform label {
-    position: relative;
-  }
-  
+
+
 
   .cform label .input {
     width: 100%;

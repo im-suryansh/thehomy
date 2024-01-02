@@ -9,25 +9,17 @@ const FeedbackForm = () => {
 				<form className="cform">
 					<p className="title">Enquiry Form</p>
 
-					<div className="flex">
 						<label>
 							<input
 								required=""
-								placeholder="First name"
+								placeholder="Name"
 								type="text"
 								className="input"
 							/>
 						</label>
 
-						<label>
-							<input
-								required=""
-								placeholder="Last name"
-								type="text"
-								className="input"
-							/>
-						</label>
-					</div>
+				
+			
 
 					<label>
 						<input
@@ -118,7 +110,7 @@ const FeedbackForm = () => {
 					<button className="loginbtn submit">Submit</button>
 				</form>
 				<div className="box">
-					<img src="../../public/contactus.png" alt="" srcset="" />
+					<img src="./contactus.png" alt="" srcset="" />
 				</div>
 			</div>
 		</div>

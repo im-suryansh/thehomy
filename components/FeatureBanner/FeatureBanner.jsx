@@ -1,7 +1,7 @@
 import React from 'react'
 import './FeatureBanner.css'
 // import '../Banner/Banner.css'
-import video2 from '../../public/videos/video2.mp4'
+import video2 from '../../public/videos/video1.mp4'
 const FeatureBanner = () => {
   return (
      <div className="video-container">

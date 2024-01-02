@@ -15,7 +15,7 @@ const FB = () => {
 					<div>
 						<div className="top">
 							<img
-								src="../../public/Looksselection.svg"
+								src="./Looksselection.svg"
 								alt=""
 								srcset=""
 								data-aos="fade-right"
@@ -23,7 +23,7 @@ const FB = () => {
 								data-aos-duration="400"
 							/>
 							<img
-								src="../../public/genderselection.svg"
+								src="./genderselection.svg"
 								alt=""
 								srcset=""
 								data-aos="fade"
@@ -31,7 +31,7 @@ const FB = () => {
 								data-aos-duration="400"
 							/>
 							<img
-								src="../../public/ageselection.svg"
+								src="./ageselection.svg"
 								alt=""
 								srcset=""
 								data-aos="fade-left"
@@ -42,7 +42,7 @@ const FB = () => {
 					</div>
 					<div className="bottom">
 						<img
-							src="../../public/dailyfoodselection.svg"
+							src="./dailyfoodselection.svg"
 							alt=""
 							srcset=""
 							data-aos="fade-right"
@@ -50,7 +50,7 @@ const FB = () => {
 							data-aos-duration="400"
 						/>
 						<img
-							src="../../public/flexibletimings.svg"
+							src="./flexibletimings.svg"
 							alt=""
 							srcset=""
 							data-aos="fade"
@@ -58,7 +58,7 @@ const FB = () => {
 							data-aos-duration="400"
 						/>
 						<img
-							src="../../public/vnvsec.svg"
+							src="./vnvsec.svg"
 							alt=""
 							srcset=""
 							data-aos="fade-left"

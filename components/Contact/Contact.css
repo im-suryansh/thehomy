@@ -93,7 +93,7 @@
   }
   
   .cform label .input:focus + span,.cform label .input:valid + span {
-    top: 30px;
+    top: 40px;
     font-size: 0.7em;
     font-weight: 600;
   }

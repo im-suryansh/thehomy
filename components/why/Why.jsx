@@ -50,14 +50,14 @@ const Why = () => {
 						Benefit from flexible durations, transparent pricing,
 						and the convenience of personalized meal planning,
 						ensuring each dish suits your taste. */}
-						"Elevate your home care experience with The Homy! Our
+						Elevate your home care experience with <span className="red"> The Homy! </span>Our
 						exceptional features include personalized services by
 						pure vegetarian maids chosen to align with your values.
 						Customize your care through our user-friendly app,
 						selecting caretakers and scheduling effortlessly. Enjoy
 						flexibility, transparent pricing, and personalized meal
 						planning for a truly tailored touch to your home care
-						journey."
+						journey.
 					</span>
 				</div>
 				<div
